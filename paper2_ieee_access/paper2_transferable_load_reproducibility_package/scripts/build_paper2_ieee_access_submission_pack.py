@@ -8,10 +8,10 @@ from pathlib import Path
 from create_submission_candidate_manuscripts import rebuild_docx
 
 
-BASE = Path(__file__).resolve().parents[1]
-ROOT = BASE
-PKG = ROOT / "manuscript" / "main"
-SOURCE = ROOT / "manuscript" / "submission_candidate" / "paper_2_transferable_load_forecasting.md"
+BASE = Path("/Users/joey/Documents/paper")
+ROOT = BASE / "outputs" / "019f1500-3356-7a02-b657-097bf5e23528"
+PKG = ROOT / "paper_package"
+SOURCE = PKG / "submission_candidates" / "paper_2_transferable_load_forecasting.md"
 OUT = PKG / "target_journal_ieee_access_paper2"
 OUT.mkdir(parents=True, exist_ok=True)
 
@@ -33,6 +33,11 @@ SUPPLEMENT = ROOT / "submission_supplements" / "paper2_transferable_load_reprodu
 SUPPLEMENT_AUDIT = ROOT / "submission_supplements" / "paper2_transferable_load_reproducibility_package_audit.md"
 SCHOOL_PACKET = OUT / "ieee_access_school_classification_confirmation_packet_2026-06-30.docx"
 TEMPLATE_FORMATTED = OUT / "paper_2_ieee_access_template_formatted_manuscript.docx"
+GITHUB_REPO = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility"
+GITHUB_RELEASE = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/tag/v0.1.0-pre-doi"
+GITHUB_ASSET = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/download/v0.1.0-pre-doi/three_paper_public_repository_staging_bundle.zip"
+GITHUB_COMMIT = "69a3fc05b02ef27686bd9bd1ca422096c21f21a2"
+DOI_STATUS = "DOI pending: no Zenodo/Figshare/OSF DOI has been issued yet."
 
 AI_DECLARATION = (
     "No conventional acknowledgements are made in this article; this section is "
@@ -62,7 +67,9 @@ DATA_AVAILABILITY = (
     "source-trained MLP transfer checks, neural TDConv residual-head checks, OPSD public load baseline, and "
     "external UCI Appliances one-hour-ahead and multi-horizon load sanity checks. "
     "Local Hunan and Shandong operational records are used only as non-public "
-    "application-context evidence and are not redistributed."
+    "application-context evidence and are not redistributed. A public GitHub "
+    f"pre-DOI release is available at {GITHUB_RELEASE}; a persistent DOI has not "
+    "yet been issued and should be inserted only after a DOI-backed archive page exists."
 )
 
 DATA_AVAILABILITY_STATEMENT = (
@@ -99,7 +106,7 @@ def sanitize_upload_visible_audit_text(text: str) -> str:
     return (
         text.replace(str(ROOT), ".")
         .replace(str(BASE), "[local-workspace]")
-        .replace("[local-user]", "[local-user]")
+        .replace("/Users/joey", "[local-user]")
     )
 
 
@@ -168,8 +175,8 @@ def abstract_word_count(text: str) -> int:
 
 
 def make_patch_attention_section() -> str:
-    summary_path = ROOT / "results" / "uci_patch_attention_transfer_summary.csv"
-    tests_path = ROOT / "results" / "uci_patch_attention_transfer_client_level_tests.csv"
+    summary_path = ROOT / "public_experiment_results" / "uci_patch_attention_transfer_summary.csv"
+    tests_path = ROOT / "public_experiment_results" / "uci_patch_attention_transfer_client_level_tests.csv"
     if not summary_path.exists() or not tests_path.exists():
         return ""
     with tests_path.open("r", encoding="utf-8", newline="") as f:
@@ -231,9 +238,9 @@ def make_patch_attention_section() -> str:
 
 
 def make_source_mlp_section() -> str:
-    summary_path = ROOT / "results" / "uci_source_mlp_transfer_summary.csv"
-    tests_path = ROOT / "results" / "uci_source_mlp_transfer_client_level_tests.csv"
-    diagnostics_path = ROOT / "results" / "uci_source_mlp_transfer_training_diagnostics.csv"
+    summary_path = ROOT / "public_experiment_results" / "uci_source_mlp_transfer_summary.csv"
+    tests_path = ROOT / "public_experiment_results" / "uci_source_mlp_transfer_client_level_tests.csv"
+    diagnostics_path = ROOT / "public_experiment_results" / "uci_source_mlp_transfer_training_diagnostics.csv"
     if not summary_path.exists() or not tests_path.exists() or not diagnostics_path.exists():
         return ""
     with tests_path.open("r", encoding="utf-8", newline="") as f:
@@ -551,7 +558,15 @@ The public-data layer of this study is reproducible from the UCI Electricity Loa
 
 ## Repository Route
 
-For the first IEEE Access submission, upload `paper2_transferable_load_reproducibility_package.zip` as supplementary material if the portal allows. After author approval, mirror the same public package to GitHub and Zenodo or another citable repository before final publication metadata is locked.
+For the first IEEE Access submission, upload `paper2_transferable_load_reproducibility_package.zip` as supplementary material if the portal allows. A public GitHub pre-DOI release also exists and can be named in the portal if the final author-approved route allows a public repository URL before DOI assignment.
+
+- GitHub repository: {GITHUB_REPO}
+- GitHub release: {GITHUB_RELEASE}
+- Release asset: {GITHUB_ASSET}
+- Commit: {GITHUB_COMMIT}
+- DOI status: {DOI_STATUS}
+
+Use the GitHub release URL as the current repository URL. Do not write a DOI until a Zenodo, Figshare, OSF, or equivalent DOI page exists.
 
 ## Current Audit Summary
 

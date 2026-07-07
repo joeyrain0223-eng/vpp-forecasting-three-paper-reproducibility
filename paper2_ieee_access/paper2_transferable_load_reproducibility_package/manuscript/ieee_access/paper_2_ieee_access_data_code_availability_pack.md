@@ -71,11 +71,19 @@ The OPSD public benchmark [18] is reproducible from `public_data_download_templa
 
 ### Data and Code Availability
 
-The reproducible public-data layer uses the UCI Electricity Load Diagrams 2011-2014 dataset, the Open Power System Data time-series package, and the UCI Appliances Energy Prediction dataset. The public reproducibility supplement contains processed public data, preprocessing scripts, result tables, generated figures, verified references, manuscript files, manifest hashes, and an audit report for the UCI multi-client transfer, source-pooled representation, masked-reconstruction representation, cold-start, client-level statistical-test, random-convolution representation checks, trainable dilated-convolution ridge checks, multi-seed TDConv stability checks, CPU-only patch-attention transfer checks, source-trained MLP transfer checks, neural TDConv residual-head checks, OPSD public load baseline, and external UCI Appliances one-hour-ahead and multi-horizon load sanity checks. Local Hunan and Shandong operational records are used only as non-public application-context evidence and are not redistributed.
+The reproducible public-data layer uses the UCI Electricity Load Diagrams 2011-2014 dataset, the Open Power System Data time-series package, and the UCI Appliances Energy Prediction dataset. The public reproducibility supplement contains processed public data, preprocessing scripts, result tables, generated figures, verified references, manuscript files, manifest hashes, and an audit report for the UCI multi-client transfer, source-pooled representation, masked-reconstruction representation, cold-start, client-level statistical-test, random-convolution representation checks, trainable dilated-convolution ridge checks, multi-seed TDConv stability checks, CPU-only patch-attention transfer checks, source-trained MLP transfer checks, neural TDConv residual-head checks, OPSD public load baseline, and external UCI Appliances one-hour-ahead and multi-horizon load sanity checks. Local Hunan and Shandong operational records are used only as non-public application-context evidence and are not redistributed. A public GitHub pre-DOI release is available at https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/tag/v0.1.0-pre-doi; a persistent DOI has not yet been issued and should be inserted only after a DOI-backed archive page exists.
 
 ## Repository Route
 
-For the first IEEE Access submission, upload `paper2_transferable_load_reproducibility_package.zip` as supplementary material if the portal allows. After author approval, mirror the same public package to GitHub and Zenodo or another citable repository before final publication metadata is locked.
+For the first IEEE Access submission, upload `paper2_transferable_load_reproducibility_package.zip` as supplementary material if the portal allows. A public GitHub pre-DOI release also exists and can be named in the portal if the final author-approved route allows a public repository URL before DOI assignment.
+
+- GitHub repository: https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility
+- GitHub release: https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/tag/v0.1.0-pre-doi
+- Release asset: https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/download/v0.1.0-pre-doi/three_paper_public_repository_staging_bundle.zip
+- Commit: 69a3fc05b02ef27686bd9bd1ca422096c21f21a2
+- DOI status: DOI pending: no Zenodo/Figshare/OSF DOI has been issued yet.
+
+Use the GitHub release URL as the current repository URL. Do not write a DOI until a Zenodo, Figshare, OSF, or equivalent DOI page exists.
 
 ## Current Audit Summary
 

@@ -7,8 +7,8 @@ authors:
     affiliation: "College of Computer Science, Hunan University"
 version: "v1.0.0-paper1-eaai-submission"
 date-released: "2026-06-30"
-repository-code: "repository URL to be inserted"
-doi: "repository DOI to be inserted"
+repository-code: "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility"
+doi: "DOI pending; insert only after DOI-backed archive release"
 keywords:
   - "electricity price forecasting"
   - "virtual power plant"
