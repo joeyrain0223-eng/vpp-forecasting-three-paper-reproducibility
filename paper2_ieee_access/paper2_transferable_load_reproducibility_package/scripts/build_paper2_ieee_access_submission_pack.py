@@ -8,11 +8,12 @@ from pathlib import Path
 from create_submission_candidate_manuscripts import rebuild_docx
 
 
-BASE = Path("/Users/joey/Documents/paper")
-ROOT = BASE / "outputs" / "019f1500-3356-7a02-b657-097bf5e23528"
-PKG = ROOT / "paper_package"
-SOURCE = PKG / "submission_candidates" / "paper_2_transferable_load_forecasting.md"
-OUT = PKG / "target_journal_ieee_access_paper2"
+REPOSITORY_ROOT = Path(__file__).resolve().parents[3]
+BASE = REPOSITORY_ROOT
+ROOT = REPOSITORY_ROOT
+PKG = REPOSITORY_ROOT / "paper2_ieee_access" / "paper2_transferable_load_reproducibility_package"
+SOURCE = PKG / "manuscript" / "paper_2_transferable_load_forecasting.md"
+OUT = PKG / "manuscript" / "ieee_access"
 OUT.mkdir(parents=True, exist_ok=True)
 
 AUTHOR = "zhijie REN"
@@ -36,7 +37,6 @@ TEMPLATE_FORMATTED = OUT / "paper_2_ieee_access_template_formatted_manuscript.do
 GITHUB_REPO = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility"
 GITHUB_RELEASE = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/tag/v0.1.0-pre-doi"
 GITHUB_ASSET = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/download/v0.1.0-pre-doi/three_paper_public_repository_staging_bundle.zip"
-GITHUB_COMMIT = "69a3fc05b02ef27686bd9bd1ca422096c21f21a2"
 DOI_STATUS = "DOI pending: no Zenodo/Figshare/OSF DOI has been issued yet."
 
 AI_DECLARATION = (
@@ -106,7 +106,7 @@ def sanitize_upload_visible_audit_text(text: str) -> str:
     return (
         text.replace(str(ROOT), ".")
         .replace(str(BASE), "[local-workspace]")
-        .replace("/Users/joey", "[local-user]")
+        .replace(str(Path.home()), "[local-user]")
     )
 
 
@@ -563,7 +563,7 @@ For the first IEEE Access submission, upload `paper2_transferable_load_reproduci
 - GitHub repository: {GITHUB_REPO}
 - GitHub release: {GITHUB_RELEASE}
 - Release asset: {GITHUB_ASSET}
-- Commit: {GITHUB_COMMIT}
+- Commit traceability: see the GitHub release receipt and repository history for the exact commit state used by the current pre-DOI release asset.
 - DOI status: {DOI_STATUS}
 
 Use the GitHub release URL as the current repository URL. Do not write a DOI until a Zenodo, Figshare, OSF, or equivalent DOI page exists.

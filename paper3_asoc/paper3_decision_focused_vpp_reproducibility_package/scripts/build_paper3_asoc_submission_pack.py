@@ -11,11 +11,12 @@ from PIL import Image, ImageDraw, ImageFont
 from create_submission_candidate_manuscripts import rebuild_docx
 
 
-BASE = Path("/Users/joey/Documents/paper")
-ROOT = BASE / "outputs" / "019f1500-3356-7a02-b657-097bf5e23528"
-PKG = ROOT / "paper_package"
-SOURCE = PKG / "submission_candidates" / "paper_3_decision_focused_vpp_bidding.md"
-OUT = PKG / "target_journal_asoc_paper3"
+REPOSITORY_ROOT = Path(__file__).resolve().parents[3]
+BASE = REPOSITORY_ROOT
+ROOT = REPOSITORY_ROOT
+PKG = REPOSITORY_ROOT / "paper3_asoc" / "paper3_decision_focused_vpp_reproducibility_package"
+SOURCE = PKG / "manuscript" / "paper_3_decision_focused_vpp_bidding.md"
+OUT = PKG / "manuscript"
 OUT.mkdir(parents=True, exist_ok=True)
 
 AUTHOR = "zhijie REN"
@@ -34,7 +35,6 @@ SCHOOL_PACKET = OUT / "asoc_school_classification_confirmation_packet_2026-06-30
 GITHUB_REPO = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility"
 GITHUB_RELEASE = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/tag/v0.1.0-pre-doi"
 GITHUB_ASSET = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/download/v0.1.0-pre-doi/three_paper_public_repository_staging_bundle.zip"
-GITHUB_COMMIT = "69a3fc05b02ef27686bd9bd1ca422096c21f21a2"
 DOI_STATUS = "DOI pending: no Zenodo/Figshare/OSF DOI has been issued yet."
 
 AI_DECLARATION = (
@@ -80,7 +80,7 @@ def sanitize_upload_visible_audit_text(text: str) -> str:
     return (
         text.replace(str(ROOT), ".")
         .replace(str(BASE), "[local-workspace]")
-        .replace("/Users/joey", "[local-user]")
+        .replace(str(Path.home()), "[local-user]")
     )
 
 
@@ -485,7 +485,7 @@ https://data.open-power-system-data.org/time_series/2020-10-06/
 - Public GitHub repository: {GITHUB_REPO}
 - Public GitHub release: {GITHUB_RELEASE}
 - Release asset: {GITHUB_ASSET}
-- Commit: {GITHUB_COMMIT}
+- Commit traceability: see the GitHub release receipt and repository history for the exact commit state used by the current pre-DOI release asset.
 - DOI status: {DOI_STATUS}
 
 ## Included Reproducibility Assets

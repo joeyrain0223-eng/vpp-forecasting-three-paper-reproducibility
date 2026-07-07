@@ -3,9 +3,9 @@ from pathlib import Path
 from create_submission_candidate_manuscripts import rebuild_docx
 
 
-BASE = Path("/Users/joey/Documents/paper")
-ROOT = BASE / "outputs" / "019f1500-3356-7a02-b657-097bf5e23528"
-EAAI = ROOT / "paper_package" / "target_journal_eaai_paper1"
+REPOSITORY_ROOT = Path(__file__).resolve().parents[3]
+ROOT = REPOSITORY_ROOT
+EAAI = REPOSITORY_ROOT / "paper1_eaai" / "paper1_eaai_reproducibility_package" / "manuscript"
 
 
 TITLE = "Paper 1 Data and Code Availability Pack"
@@ -21,7 +21,6 @@ SUPP_ZIP = "submission_supplements/paper1_eaai_reproducibility_package.zip"
 GITHUB_REPO = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility"
 GITHUB_RELEASE = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/tag/v0.1.0-pre-doi"
 GITHUB_ASSET = "https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/download/v0.1.0-pre-doi/three_paper_public_repository_staging_bundle.zip"
-GITHUB_COMMIT = "69a3fc05b02ef27686bd9bd1ca422096c21f21a2"
 DOI_STATUS = "DOI pending: no Zenodo/Figshare/OSF DOI has been issued yet."
 
 
@@ -51,7 +50,7 @@ Current pre-DOI release: {GITHUB_RELEASE}
 
 Current release asset: {GITHUB_ASSET}
 
-Commit: {GITHUB_COMMIT}
+Commit traceability: see the GitHub release receipt and repository history for the exact commit state used by the current pre-DOI release asset.
 
 DOI status: {DOI_STATUS}
 

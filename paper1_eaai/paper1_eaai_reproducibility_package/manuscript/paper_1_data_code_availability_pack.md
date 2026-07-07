@@ -24,7 +24,7 @@ Current pre-DOI release: https://github.com/joeyrain0223-eng/vpp-forecasting-thr
 
 Current release asset: https://github.com/joeyrain0223-eng/vpp-forecasting-three-paper-reproducibility/releases/download/v0.1.0-pre-doi/three_paper_public_repository_staging_bundle.zip
 
-Commit: 69a3fc05b02ef27686bd9bd1ca422096c21f21a2
+Commit traceability: see the GitHub release receipt and repository history for the exact commit state used by the current pre-DOI release asset.
 
 DOI status: DOI pending: no Zenodo/Figshare/OSF DOI has been issued yet.
 
