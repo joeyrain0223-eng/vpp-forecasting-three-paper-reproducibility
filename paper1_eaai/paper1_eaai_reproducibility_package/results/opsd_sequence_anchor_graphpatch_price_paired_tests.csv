@@ -1,0 +1,13 @@
+dataset,zone,regime,model,baseline,paired_n,wins,losses,win_rate,mean_abs_error_delta,sign_test_z,sign_test_p_approx
+OPSD,DE_LU,all,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,3471,1891,1580,0.5447997695188707,0.10897976462877902,5.278774160800738,1.3005097225956105e-07
+OPSD,DE_LU,spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,251,130,121,0.5179282868525896,0.3144162667838816,0.5680749627880228,0.5699840677206466
+OPSD,DE_LU,non_spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,3220,1761,1459,0.5468944099378882,0.0929659254856328,5.322050695219322,1.0260396752087937e-07
+OPSD,DK_1,all,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,10043,5416,4627,0.5392810913073782,0.029931388566367477,7.873091011987789,3.4598476951080578e-15
+OPSD,DK_1,spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,1718,947,771,0.5512223515715948,0.041574000267486866,4.246206277749751,2.1742047752439934e-05
+OPSD,DK_1,non_spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,8325,4469,3856,0.5368168168168168,0.02752874509459293,6.718438614545601,1.83682091761473e-11
+OPSD,DK_2,all,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,10043,5369,4674,0.5346012147764612,0.04159373269698356,6.9351055175304355,4.059180668320279e-12
+OPSD,DK_2,spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,1712,952,760,0.5560747663551402,0.0938464546433418,4.640335147419185,3.4784457263246344e-06
+OPSD,DK_2,non_spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,8331,4417,3914,0.5301884527667747,0.030855926914704686,5.510860502986384,3.570836454369215e-08
+OPSD,GB_GBN,all,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,10016,5316,4700,0.5307507987220448,0.15611526120091315,6.155077905726222,7.504059832558209e-10
+OPSD,GB_GBN,spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,767,399,368,0.5202086049543677,0.2785419445626592,1.1193451242448842,0.2629929320698952
+OPSD,GB_GBN,non_spike,Sequence-anchored GraphPatch residual,NLinear-style sequence ridge,9249,4917,4332,0.5316250405449238,0.14596267539288427,6.082869178073849,1.18050668082935e-09

@@ -1,0 +1,6 @@
+comparison,candidate_model,baseline_model,target_clients,mean_baseline_rmse,mean_candidate_rmse,mean_rmse_gain_pct,wins,losses,ties,sign_test_p_two_sided
+Neural residual 28d vs TDConv 28d,Neural-TDConv-residual+adapter-28d,TDConv-ridge+adapter-28d,10,65.2907270553834,65.58183587632628,-0.3588749969139045,5,5,0,1.0
+Neural residual source vs TDConv source,Neural-TDConv-residual-source-head,TDConv-ridge-source-head,10,65.47136411063897,65.5920871929755,-0.24027651957825963,5,5,0,1.0
+Neural residual 28d vs RC 28d,Neural-TDConv-residual+adapter-28d,RC-lag+adapter-28d,10,67.50006145954026,65.58183587632628,2.976753017903598,10,0,0,0.001953125
+Neural residual 28d vs target ridge 28d,Neural-TDConv-residual+adapter-28d,Target-linear-28d,10,82.7816338393267,65.58183587632628,23.471432965626978,9,1,0,0.021484375
+Neural residual 7d vs target ridge 7d,Neural-TDConv-residual+adapter-7d,Target-linear-7d,10,88.09554175372205,66.56627189295564,26.836108814045684,10,0,0,0.001953125

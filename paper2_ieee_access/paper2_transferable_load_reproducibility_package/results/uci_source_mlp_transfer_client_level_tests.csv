@@ -1,0 +1,7 @@
+comparison,candidate_model,baseline_model,target_clients,mean_baseline_rmse,mean_candidate_rmse,mean_rmse_gain_pct,wins,losses,ties,sign_test_p_two_sided
+SourceMLP 28d adapter vs patch-attention 28d,SourceMLP+adapter-28d,PatchAttention-ridge+adapter-28d,10,64.7605081670719,86.0563211743281,-36.5813749858577,0,10,0,0.001953125
+SourceMLP 28d adapter vs TDConv 28d,SourceMLP+adapter-28d,TDConv-ridge+adapter-28d,10,65.2907270553834,86.0563211743281,-33.784663109464375,0,10,0,0.001953125
+SourceMLP source vs TDConv source,SourceMLP-source-head,TDConv-ridge-source-head,10,65.47136411063897,88.21249566802979,-33.82163329139967,0,10,0,0.001953125
+SourceMLP 28d adapter vs RC 28d,SourceMLP+adapter-28d,RC-lag+adapter-28d,10,67.50006145954026,86.0563211743281,-29.35064265006697,0,10,0,0.001953125
+SourceMLP 28d adapter vs target ridge 28d,SourceMLP+adapter-28d,Target-linear-28d,10,82.7816338393267,86.0563211743281,-1.26577097482858,5,5,0,1.0
+SourceMLP hidden target head 28d vs target ridge 28d,SourceMLP-hidden-target-head-28d,Target-linear-28d,10,82.7816338393267,85.88258349483189,-2.0947387026742037,4,6,0,0.75390625

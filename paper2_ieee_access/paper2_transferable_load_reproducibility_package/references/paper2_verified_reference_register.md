@@ -1,0 +1,32 @@
+# Paper 2 Verified Reference Register
+
+- [1] `vaswani2017attention` | url_verified_no_doi | https://proceedings.neurips.cc/paper/7181-attention-is-all-you-need | title_match=n/a
+- [2] `lim2021temporal` | doi_verified | https://doi.org/10.1016/j.ijforecast.2021.03.012 | title_match=yes
+- [3] `zhou2021informer` | doi_verified | https://doi.org/10.1609/aaai.v35i12.17325 | title_match=yes
+- [4] `wu2021autoformer` | url_verified_no_doi | https://arxiv.org/abs/2106.13008 | title_match=n/a
+- [5] `nie2023patchtst` | url_verified_no_doi | https://openreview.net/forum?id=Jbdc0vTOcol | title_match=n/a
+- [6] `zeng2023dlinear` | doi_verified | https://doi.org/10.1609/aaai.v37i9.26317 | title_match=yes
+- [7] `oreshkin2020nbeats` | url_verified_no_doi | https://openreview.net/forum?id=r1ecqn4YwB | title_match=n/a
+- [8] `bai2018tcn` | url_verified_no_doi | https://arxiv.org/abs/1803.01271 | title_match=n/a
+- [9] `dempster2020rocket` | doi_verified | https://doi.org/10.1007/s10618-020-00701-z | title_match=yes
+- [10] `dempster2021minirocket` | doi_verified | https://doi.org/10.1145/3447548.3467231 | title_match=yes
+- [11] `yue2022ts2vec` | doi_verified | https://doi.org/10.1609/aaai.v36i8.20881 | title_match=yes
+- [12] `pan2010transfer` | doi_verified | https://doi.org/10.1109/TKDE.2009.191 | title_match=yes
+- [13] `ganin2016domain` | url_verified_no_doi | https://jmlr.org/papers/v17/15-239.html | title_match=n/a
+- [14] `hong2014gefcom2012` | doi_verified | https://doi.org/10.1016/j.ijforecast.2013.07.001 | title_match=yes
+- [15] `hong2016probabilistic` | doi_verified | https://doi.org/10.1016/j.ijforecast.2016.02.001 | title_match=yes
+- [16] `hyndman2021fpp3` | url_verified_no_doi | https://otexts.com/fpp3/ | title_match=n/a
+- [17] `uci2015electricity` | url_verified_no_doi | https://archive.ics.uci.edu/dataset/321/electricityloaddiagrams20112014 | title_match=n/a
+- [18] `opsd2020timeseries` | url_verified_no_doi | https://data.open-power-system-data.org/time_series/2020-10-06/ | title_match=n/a
+- [19] `lago2021benchmark` | doi_verified | https://doi.org/10.1016/j.apenergy.2021.116983 | title_match=yes
+- [20] `angelopoulos2023conformal` | doi_verified | https://doi.org/10.1561/2200000101 | title_match=yes
+- [21] `uci2017appliances` | url_verified_no_doi | https://archive.ics.uci.edu/dataset/374/appliances+energy+prediction | title_match=n/a
+- [22] `benidis2022deep` | doi_verified | https://doi.org/10.1145/3533382 | title_match=yes
+- [23] `hong2020energyforecasting` | doi_verified | https://doi.org/10.1109/OAJPE.2020.3029979 | title_match=yes
+- [24] `wang2019multiscale` | doi_verified | https://doi.org/10.1016/j.energy.2019.03.080 | title_match=yes
+- [25] `long2019dan` | doi_verified | https://doi.org/10.1109/TPAMI.2018.2868685 | title_match=yes
+- [26] `liu2022scinet` | doi_verified | https://doi.org/10.52202/068431-0421 | title_match=yes
+- [27] `salinas2020deepar` | doi_verified | https://doi.org/10.1016/j.ijforecast.2019.07.001 | title_match=yes
+- [28] `torres2021survey` | doi_verified | https://doi.org/10.1089/big.2020.0159 | title_match=yes
+- [29] `hewamalage2021rnn` | doi_verified | https://doi.org/10.1016/j.ijforecast.2020.06.008 | title_match=yes
+- [30] `petropoulos2022forecasting` | doi_verified | https://doi.org/10.1016/j.ijforecast.2021.11.001 | title_match=yes

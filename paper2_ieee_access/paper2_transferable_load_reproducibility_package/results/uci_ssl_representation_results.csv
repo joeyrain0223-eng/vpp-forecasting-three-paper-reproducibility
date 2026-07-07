@@ -1,0 +1,101 @@
+dataset,target_client,model,protocol,mae,rmse,smape,n
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR-source-head,source-only frozen representation,65.21482259323467,93.28554661680344,13.58761420074023,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR+adapter-7d,frozen representation with target adapter,63.35891367757199,91.6625915120683,13.523959589756185,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR+target-head-7d,frozen representation with target head,532.9655034150329,749.0866356291831,64.96618003283815,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR+adapter-28d,frozen representation with target adapter,63.1775307716372,90.98723984653556,13.714519466259786,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR+target-head-28d,frozen representation with target head,68.1370609346999,96.16971035638308,15.548879000021563,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR-source-head,source-only frozen representation,71.12876856722642,103.98486299540504,6.650748826507824,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR+adapter-7d,frozen representation with target adapter,69.36633564786884,101.43540048555404,6.51715452759096,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR+target-head-7d,frozen representation with target head,789.5224317611539,959.3503491631867,103.81931204837002,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR+adapter-28d,frozen representation with target adapter,69.1753896158831,101.63777948038394,6.487380729333723,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR+target-head-28d,frozen representation with target head,174.36508504760508,214.69448228947442,18.755593841671928,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR-source-head,source-only frozen representation,154.41910947921374,212.97565361335091,6.734418231722343,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR+adapter-7d,frozen representation with target adapter,156.10584059611347,213.34882066463504,6.780147015708684,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR+target-head-7d,frozen representation with target head,165.50454223720058,221.231423660614,7.276062220173568,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR+adapter-28d,frozen representation with target adapter,148.93768567493876,205.79027237823354,6.478097251639974,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR+target-head-28d,frozen representation with target head,133.40940218680686,183.17030699570128,5.786598169826027,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR-source-head,source-only frozen representation,54.233847250967614,76.8907314897912,12.728543975235468,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR+adapter-7d,frozen representation with target adapter,52.44204193318394,74.9381380070675,12.576857892206897,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR+target-head-7d,frozen representation with target head,203.13349171840449,265.38780116974283,37.31434261315361,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR+adapter-28d,frozen representation with target adapter,52.5972474002501,75.07035919631308,12.51625171385187,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR+target-head-28d,frozen representation with target head,57.164371509218824,79.6199848302207,13.082815033239914,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR-source-head,source-only frozen representation,68.36863693673091,101.16749907972584,6.314260529996137,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR+adapter-7d,frozen representation with target adapter,66.59075543928999,99.77062845014714,6.185185975852294,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR+target-head-7d,frozen representation with target head,263.58035824323156,358.0473319557972,18.831462692104267,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR+adapter-28d,frozen representation with target adapter,66.7542766738895,99.08694335216772,6.219578083294068,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR+target-head-28d,frozen representation with target head,66.79157032109372,97.90193527677759,6.20623864870847,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR-source-head,source-only frozen representation,103.31939153689126,141.08315428479304,8.82143789359052,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR+adapter-7d,frozen representation with target adapter,104.27577677167358,142.03544557514135,8.960933676685414,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR+target-head-7d,frozen representation with target head,867.3095388893199,1195.1504199321143,97.21515929719135,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR+adapter-28d,frozen representation with target adapter,103.3085575891188,141.22077563413978,8.840094863367934,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR+target-head-28d,frozen representation with target head,227.5103930196816,296.1672402257514,22.36127999869082,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR-source-head,source-only frozen representation,55.87436451045712,81.86048987848334,6.003357531170561,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR+adapter-7d,frozen representation with target adapter,55.397395952037975,80.94930022488505,5.978909941658452,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR+target-head-7d,frozen representation with target head,845.034863232184,998.2545254984454,58.578729343245215,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR+adapter-28d,frozen representation with target adapter,55.53464535758121,80.60140776663937,6.051444534283852,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR+target-head-28d,frozen representation with target head,56.09135449291154,81.72187949858213,5.9904990694484805,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR-source-head,source-only frozen representation,45.754026836605576,72.08402557588838,12.681011544965456,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR+adapter-7d,frozen representation with target adapter,44.59055498250115,71.79864678952728,12.45733834591828,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR+target-head-7d,frozen representation with target head,352.2736508345839,491.1996800510669,71.66744652257465,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR+adapter-28d,frozen representation with target adapter,44.78242787031893,71.03672581652386,12.603811715775445,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR+target-head-28d,frozen representation with target head,45.79311907541604,73.42523327052916,11.978643276907643,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR-source-head,source-only frozen representation,53.290772360717845,83.42106983023152,6.987346274565283,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR+adapter-7d,frozen representation with target adapter,52.53110604033793,82.78562898122594,6.86624920833111,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR+target-head-7d,frozen representation with target head,1178.2568562877493,1385.128421383906,84.48647544117927,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR+adapter-28d,frozen representation with target adapter,51.27328474310171,81.16469946418542,6.7573620068264315,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR+target-head-28d,frozen representation with target head,61.746737309481105,91.48744397986243,8.119223199360132,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR-source-head,source-only frozen representation,47.89018669529023,66.263473104226,11.91677138409133,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR+adapter-7d,frozen representation with target adapter,47.1486992094042,66.00935883423391,11.731557421866126,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR+target-head-7d,frozen representation with target head,276.4851482550307,434.2216503397952,43.41384567477707,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR+adapter-28d,frozen representation with target adapter,46.90948171554096,65.36290977934652,11.645818787171137,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR+target-head-28d,frozen representation with target head,49.755139293559836,70.03888285781598,12.501921082424106,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR-lag-source-head,source-only frozen representation,45.96669530071763,68.36283015300444,9.137356951546394,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR-lag+adapter-7d,frozen representation with target adapter,45.500409996820856,68.23422832753477,9.033721720048128,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR-lag+target-head-7d,frozen representation with target head,540.0554874409501,764.4445222039686,67.06781138927353,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR-lag+adapter-28d,frozen representation with target adapter,45.2933111515563,67.71599536680658,9.109321556871608,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,SSL-MR-lag+target-head-28d,frozen representation with target head,48.40862412104648,73.46252528657004,10.253526053490875,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR-lag-source-head,source-only frozen representation,61.09905673096836,86.08209090268468,5.505761340459061,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR-lag+adapter-7d,frozen representation with target adapter,60.724283407417296,85.35040655946506,5.497540051761731,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR-lag+target-head-7d,frozen representation with target head,720.088278483007,873.1263375354564,96.74057419829289,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR-lag+adapter-28d,frozen representation with target adapter,60.9686365524376,85.68456425250687,5.531252212113071,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,SSL-MR-lag+target-head-28d,frozen representation with target head,160.47818228484522,196.58798877580384,17.083697271188694,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR-lag-source-head,source-only frozen representation,105.07595445999854,150.05275062400625,4.550844026516645,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR-lag+adapter-7d,frozen representation with target adapter,106.83186238563081,149.62609991010274,4.622653545564625,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR-lag+target-head-7d,frozen representation with target head,144.49631762429723,188.97894042146197,6.354561183693318,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR-lag+adapter-28d,frozen representation with target adapter,103.11867889083304,147.02273498265677,4.465801909002129,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,SSL-MR-lag+target-head-28d,frozen representation with target head,90.02129832347991,129.26573441235047,3.8867420508716983,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR-lag-source-head,source-only frozen representation,38.26633182879901,54.16865262026867,8.666026285626254,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR-lag+adapter-7d,frozen representation with target adapter,37.14521353805692,53.46963853480263,8.477535438180904,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR-lag+target-head-7d,frozen representation with target head,186.3342090500274,249.22403548300923,42.2943181441747,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR-lag+adapter-28d,frozen representation with target adapter,37.43123819337286,53.67934540688913,8.6139634531747,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,SSL-MR-lag+target-head-28d,frozen representation with target head,34.05604736705536,54.39853839099538,7.137100307277966,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR-lag-source-head,source-only frozen representation,50.485062337226964,74.2244033284767,4.7174380293965905,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR-lag+adapter-7d,frozen representation with target adapter,50.31641588064765,74.21763327695939,4.708192361145127,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR-lag+target-head-7d,frozen representation with target head,529.8377421355248,646.4899638204209,76.36709321810746,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR-lag+adapter-28d,frozen representation with target adapter,49.81429294019249,73.18417263977724,4.6599006006042165,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,SSL-MR-lag+target-head-28d,frozen representation with target head,50.09105044392099,71.88227986267746,4.724327136471648,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR-lag-source-head,source-only frozen representation,76.47485278805594,104.86042640272375,6.558889852942425,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR-lag+adapter-7d,frozen representation with target adapter,76.6417139870357,105.29735130148156,6.581342177589377,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR-lag+target-head-7d,frozen representation with target head,529.7764463422551,706.1882787968087,65.72557132603934,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR-lag+adapter-28d,frozen representation with target adapter,76.33033614389986,104.92662819232983,6.548717327794333,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,SSL-MR-lag+target-head-28d,frozen representation with target head,189.9843523806653,242.18937213109285,18.516862070686283,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR-lag-source-head,source-only frozen representation,43.615540285793884,63.43376763433777,4.653296326115663,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR-lag+adapter-7d,frozen representation with target adapter,46.729500907477394,65.89273635825937,5.1085766146664255,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR-lag+target-head-7d,frozen representation with target head,859.8132089971295,1014.0102138592446,59.24739026865269,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR-lag+adapter-28d,frozen representation with target adapter,43.5212387040003,63.428051723884245,4.695750577360489,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,SSL-MR-lag+target-head-28d,frozen representation with target head,47.787189058254626,71.13101250666244,5.133617722956632,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR-lag-source-head,source-only frozen representation,30.062772721199824,48.05607248440076,7.388648256909246,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR-lag+adapter-7d,frozen representation with target adapter,29.780937892693213,47.99554488596558,7.365686275325823,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR-lag+target-head-7d,frozen representation with target head,96.68162018201856,141.90456072350312,29.201429308376014,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR-lag+adapter-28d,frozen representation with target adapter,29.735304878396935,47.4039782265714,7.426846458016138,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,SSL-MR-lag+target-head-28d,frozen representation with target head,32.471936768694775,64.32307455026735,8.566003684928948,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR-lag-source-head,source-only frozen representation,37.99305919070589,58.57095509285282,5.1033267302955325,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR-lag+adapter-7d,frozen representation with target adapter,37.70749337404671,58.394141883240685,5.058161825304175,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR-lag+target-head-7d,frozen representation with target head,1027.6717289703897,1206.2373073055123,77.67281335460851,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR-lag+adapter-28d,frozen representation with target adapter,36.95521067752247,57.768833281590766,4.984076152353014,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,SSL-MR-lag+target-head-28d,frozen representation with target head,43.986985581434915,65.4715439747569,5.831118098493537,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR-lag-source-head,source-only frozen representation,34.728040704127295,49.07709204712232,8.052989674425062,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR-lag+adapter-7d,frozen representation with target adapter,34.47856753081928,48.9709830454686,8.006457428330853,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR-lag+target-head-7d,frozen representation with target head,227.55140707303323,350.9374301473911,38.891610379210164,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR-lag+adapter-28d,frozen representation with target adapter,34.5311885051723,48.80435919011239,8.070323491335648,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,SSL-MR-lag+target-head-28d,frozen representation with target head,36.10580773699997,51.76007375310081,8.80770515628026,2208

@@ -1,0 +1,6 @@
+comparison,paired_days,wins,losses,ties,mean_revenue_delta,median_revenue_delta,exact_two_sided_sign_p
+Constrained Q-learning policy vs DF policy search (revenue),1378,98,1280,0,-27.378521722081043,-25.3840774369572,4.504828931942478e-263
+Constrained Q-learning policy vs DF policy search (risk-adjusted),1378,96,1282,0,-27.230928940879227,-25.24004854699689,2.6028637866607474e-265
+Constrained Q-learning policy vs Robust quantile FTO,1378,112,1266,0,-27.01435319025002,-25.444538152010303,6.429338196651737e-248
+Constrained Q-learning policy vs Rolling-28d mean FTO,1378,107,1271,0,-27.16848845741773,-25.262394073603666,3.130491731521638e-253
+Constrained Q-learning policy vs Fuzzy risk-aware FTO,1378,178,1200,0,-16.420261058985947,-14.931880939342093,2.2385759474284814e-186

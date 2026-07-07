@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this repository after public release, cite the associated papers and repository DOI."
+title: "Public reproducibility package for doctoral manuscripts on electricity price forecasting, load forecasting, and virtual power plant decision learning"
+version: 0.1.0-predoi
+date-released: 2026-07-07
+authors:
+  - family-names: Ren
+    given-names: Zhijie
+    orcid: https://orcid.org/0009-0006-1048-6640
+keywords:
+  - electricity price forecasting
+  - load forecasting
+  - virtual power plant
+  - time-series forecasting
+  - reproducibility

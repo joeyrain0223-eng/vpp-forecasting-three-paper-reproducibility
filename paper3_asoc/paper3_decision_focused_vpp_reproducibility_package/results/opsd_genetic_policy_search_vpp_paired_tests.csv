@@ -1,0 +1,8 @@
+comparison,paired_days,wins,losses,ties,mean_revenue_delta,median_revenue_delta,exact_two_sided_sign_p
+Genetic policy search (risk-adjusted) vs Genetic policy search (revenue),1378,214,218,946,0.030604459095152425,0.0,0.8852555143793945
+Genetic policy search (risk-adjusted) vs DF policy search (revenue),1378,237,240,901,-0.013331241051419616,0.0,0.9270493833136902
+Genetic policy search (risk-adjusted) vs DF policy search (risk-adjusted),1378,190,158,1030,0.13426154015039415,0.0,0.0964173426651838
+Genetic policy search (risk-adjusted) vs Robust quantile FTO,1378,415,390,573,0.3508372907796021,0.0,0.39762873525373676
+Genetic policy search (risk-adjusted) vs Rolling-28d mean FTO,1378,306,262,810,0.19670202361189337,0.0,0.07110008926628128
+Genetic policy search (risk-adjusted) vs Fuzzy risk-aware FTO,1378,1178,200,0,10.944929422043675,8.651895880353958,8.257596799293992e-169
+Genetic policy search (risk-adjusted) vs Constrained Q-learning policy,1378,1273,105,0,27.36519048102962,25.374622805592278,2.1886756975449127e-255

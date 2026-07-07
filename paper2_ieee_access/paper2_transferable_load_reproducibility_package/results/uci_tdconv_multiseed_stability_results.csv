@@ -1,0 +1,161 @@
+seed,dataset,target_client,model,protocol,adapt_days,mae,rmse,smape,n
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.732979743366858,54.36833332115354,6.308805055990326,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.48671764671907,53.77705669797,6.562374086304327,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,56.11171035622058,78.0581321705269,4.997684801426551,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.44513377791717,78.14458805859775,5.08586023026934,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.30348486305469,133.46927891150344,3.9578227718683294,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.43063698678692,132.28717986333717,3.9220537033465295,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.013958427003338,44.26230185150941,5.6139170163403085,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.32828421444863,44.15480478438805,5.835005865877404,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,40.99455362446377,62.67117489411663,3.8658187789559406,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,41.14273845242991,62.28429343377724,3.8781327459790025,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.4291053237659,99.41528581355227,6.270344126935639,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.69063514770525,99.87264396017495,6.286308639087985,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.85251280272111,55.18689928464694,3.8443335290198917,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.29800340487145,55.261913372370465,3.9233524583578574,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.531270789967024,34.47696692456188,5.31606768644407,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.5579827984219,33.74472102577387,5.440120840762135,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.02744260595749,49.80318210875135,4.285451196091385,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.686287370724063,49.51810092889505,4.255286846232444,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.738042266586422,44.12092070679497,7.067634906295496,2208
+20260710,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.875901642658313,44.05249515782667,7.160270212369007,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.1990780196266,54.39801441639367,6.240419631875418,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.364813913361584,54.01684195519017,6.535389701727953,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,55.6161810945041,77.60035407606472,4.949961599487048,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.232890027275744,77.92844458062237,5.068049693373892,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.22289776795604,133.4444901722131,3.952480716883977,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.32501960349647,132.16393799818067,3.916278905835082,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,25.81989800888367,44.4828815605932,5.583066727373743,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.252774557019404,44.45362407607603,5.824912874595503,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,40.68537713871782,62.329203929822846,3.8396172072410075,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,41.10663219595873,62.19197025874677,3.874282068086289,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.49444290840576,99.63216607293379,6.270750538336419,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.75908720588149,100.07307071948189,6.286419169548157,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.65595923610167,55.06098079155516,3.822823445475014,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.22437682924843,55.29258422120539,3.9123833194584914,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.342719993306872,34.25240127014313,5.309075353417357,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.52270115690624,33.66883260777859,5.468969940980271,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.88269259327909,49.422145745308605,4.270461264419231,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.793477870839524,49.43857472881816,4.266989003205924,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.644492209971,44.16070053486495,7.06197315157278,2208
+20260711,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.842394929293356,44.16991801632237,7.158522950219778,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.891577960269505,54.799080263300986,6.302194040012382,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.169524208409143,54.03680155199288,6.45172494698051,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,55.93773927883078,77.78738843386235,4.9827739413384,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.44787974535546,78.04028738533796,5.0931479473358685,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.23425583113558,133.3000601319309,3.9526930945294856,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.22416999969491,132.028543473742,3.9111350356977397,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.394578035066736,44.8599868915026,5.724031881359518,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.205476497615905,44.51639507132114,5.821916284942543,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,40.946972204142966,62.54846614517145,3.860456376582245,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,40.92423848995661,62.06280773649771,3.8571611718516876,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.56703170437986,99.57469185857578,6.2820196415857215,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.75015508597873,99.98555104649537,6.291799402052478,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.84995409917832,55.268763323608894,3.8497115037428684,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.22719997296694,55.3059886568234,3.9220988638901124,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.604506292289027,34.3398502823138,5.383242413701534,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.355141973771303,33.46728231888706,5.413372914152079,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.0801800633311,49.575611618924704,4.291836387103891,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.68913332779958,49.257561606363936,4.254128933598399,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.82731957139358,44.29028096566403,7.103413316775111,2208
+20260712,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.862910812658164,44.12877870427681,7.167285067771356,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.898268979585776,54.53226027139759,6.332468131568865,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.560972375252593,53.88153973865043,6.5973956866498416,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,56.04818376876421,77.9898725100438,4.998930832499529,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.22735150183258,77.96590070054589,5.063327292292741,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.47938454057942,133.51669041725302,3.961405428752847,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.2282334791317,131.9434453693258,3.911598337964519,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.159612014684054,44.397363937038016,5.667809906990265,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.378113593263816,44.2646738391689,5.865032608558287,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,41.19867011604143,62.94590434418717,3.8845467849698667,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,41.22332327825765,62.45045122865382,3.8831830788936634,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.23233098881988,99.1746323094273,6.252131229077258,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.42193060919841,99.57501607771735,6.264772607740891,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.95011261806855,55.21265870672522,3.8615712005987026,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.29625419621183,55.24887468617517,3.926876236028055,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.72181399018076,34.74077350011683,5.375116507625309,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.687679510580054,33.97095460035436,5.493212242091175,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.32635929812362,50.055327162943506,4.319630766614378,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.847278562604817,49.67596133540989,4.272035787775885,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.73711858439422,44.17112798490704,7.070911736908359,2208
+20260713,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.841378765094397,44.07133299291591,7.156747894766391,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.819761155954446,54.682449717406094,6.3210552480394675,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.421547851970082,54.109782109365675,6.509441921605169,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,55.964416971659176,77.99712213576778,4.9834739072131695,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.485332321468455,78.23953751217373,5.099439446084859,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.99644787601228,134.15574506170918,3.9878570474086925,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.76391544943553,132.63411302361226,3.9367523927416395,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.090905344197076,44.643265984617074,5.598393029496649,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.208202950347086,44.42159478846112,5.795377742733515,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,41.17221903663828,62.8972047191858,3.881676555827138,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,41.1785043014465,62.38400667656009,3.8845568865450644,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.61216518075962,99.53813769711253,6.289532294791752,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.78029057035728,99.9253622245341,6.297825294414255,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.772015942873665,55.12995173861796,3.827323592723026,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.19252693056508,55.21135918322454,3.9082807841177645,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.510027829124528,34.50170401123386,5.320652434510823,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.420469358301883,33.75938845830749,5.380809780959551,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.22622957810052,50.00956105853932,4.307327870465636,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.87825852165439,49.796574269196704,4.276889536413426,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.786202774998447,44.23142685612283,7.108695881293377,2208
+20260714,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.87387111619764,44.17286550909872,7.170793132910405,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,31.874839363111608,54.42577436947403,6.295410057700026,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.532659407230852,53.80835349198162,6.518503790587812,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,56.097681765660035,78.09668317966708,4.998234016598868,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.51133585619965,78.25229909383275,5.097159509413563,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.0810392555421,133.47328319182108,3.9470541613740044,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.2542347327812,132.2463073020112,3.9136456510728217,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.18912842778061,44.33756246007796,5.634197474789464,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.346381769285056,44.139372117557656,5.844251254685091,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,41.07741298125934,62.771578312291304,3.868966030718221,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,41.12221958365002,62.23823289736795,3.872293075121806,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.25754948935561,99.28760371760524,6.25156330752956,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.55323837745514,99.74344930394412,6.271188568076035,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.88023739052262,55.19244506488917,3.841916737182228,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.31175249850969,55.25049358050498,3.9244976802199356,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.624672427856517,34.58634329717752,5.30480188105736,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.595677885321255,33.812116470682994,5.4118889480665135,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.1767609790191,49.94638932938722,4.301641724616818,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.856352528916656,49.71514005900564,4.272624223546507,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.64306403408463,44.09484220305472,7.016599264831545,2208
+20260715,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.790555796548887,44.03141886876656,7.114815187239215,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.13209563207215,54.59899233463196,6.37521139941519,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.17864941331661,53.72359320056848,6.469936583055458,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,56.221525001141266,78.1696811976394,5.003621133327886,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.51778413853171,78.23459413079853,5.08791098671078,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,91.62618775022038,133.82140956357358,3.970604180358871,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.39467303721985,132.2799762552879,3.9193037520347853,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.440475811105156,44.6962031738072,5.728055484946412,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.23381478774579,44.299664465136324,5.824797409753306,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,41.21599672271782,62.93763702011563,3.8786384659615663,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,41.09683665170895,62.25148319927514,3.8671596406454034,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.3486456315271,99.42035004442147,6.261469223158319,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.59319847308755,99.89368142975329,6.276449408651713,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,36.03304375346693,55.430933498383794,3.863415471819038,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.224469741197225,55.32500839130141,3.9210517556951228,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.750871472728274,34.741966067984215,5.375339663837653,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.441776257016414,33.73944444081953,5.401529052996934,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.454840863827414,50.16754100581392,4.335520948570556,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.87234874507462,49.67811234230819,4.274679568891644,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.861352073345543,44.28047830823725,7.111834272481668,2208
+20260716,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.84337818974632,44.08878152401595,7.162005170049779,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.13647183478335,54.57566663927267,6.382843187746517,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.678683134785196,53.982584393730534,6.543954263410215,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,55.970966163056026,77.94645485474891,4.9826737483217745,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,56.50820738607759,78.1912946664219,5.104558644232491,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,92.36895886899701,134.24779164921176,4.0003242037959446,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,90.83649801371348,132.42655832577194,3.93826052227982,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,26.251488638828697,44.43568354379717,5.652004082465153,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,26.19648636492151,44.13979467704429,5.803428698540278,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,41.16237611876013,62.98188914856579,3.8778410117862663,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,40.99023355953199,62.27236484209826,3.8655749053942494,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,72.13787327507212,99.03249777535859,6.246293308907581,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,72.34528919930767,99.47566181496728,6.256274061026381,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,35.946734787025626,55.27106800471848,3.8511736193959742,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,36.30080965111426,55.25488929378707,3.931244592442856,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,20.68645970442942,34.53576664788325,5.377266834172524,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,20.497809530414973,33.67759772855979,5.434759725038894,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,32.4207143965379,50.04596336339566,4.3297324763939695,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,31.984676411678706,49.77150216484483,4.286622596968419,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,29.798982513284862,44.19772445884555,7.091761435038918,2208
+20260717,UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,29.82753120635355,44.08435134851036,7.147504389082772,2208

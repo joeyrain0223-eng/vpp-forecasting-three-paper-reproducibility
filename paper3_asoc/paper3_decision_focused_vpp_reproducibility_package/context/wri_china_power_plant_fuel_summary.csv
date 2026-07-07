@@ -1,0 +1,10 @@
+fuel,plant_count,capacity_mw,capacity_gw,source_file
+Coal,953,969908.0,969.908,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Hydro,956,262851.1,262.851,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Gas,179,71447.5,71.448,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Solar,1321,54916.12,54.916,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Wind,842,51185.42,51.185,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Nuclear,15,38616.0,38.616,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Oil,6,3329.0,3.329,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+Geothermal,2,26.1,0.026,[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson
+__metadata__,4274,,,missing_capacity_records=0

@@ -1,0 +1,9 @@
+comparison,paired_days,wins,losses,ties,mean_revenue_delta,median_revenue_delta,exact_two_sided_sign_p
+Surrogate policy-gradient (risk-adjusted) vs Surrogate policy-gradient (revenue),1378,378,219,781,0.255978743179523,0.0,7.804723051810213e-11
+Surrogate policy-gradient (risk-adjusted) vs Genetic policy search (risk-adjusted),1378,371,426,581,-0.33079459732644545,0.0,0.0557083133785848
+Surrogate policy-gradient (risk-adjusted) vs PSO policy search (risk-adjusted),1378,385,415,578,-0.2505996753736132,0.0,0.3052168746377815
+Surrogate policy-gradient (risk-adjusted) vs DF policy search (revenue),1378,378,422,578,-0.34412583837786503,0.0,0.12838856780646665
+Surrogate policy-gradient (risk-adjusted) vs DF policy search (risk-adjusted),1378,393,418,567,-0.19653305717605138,0.0,0.3993801689797639
+Surrogate policy-gradient (risk-adjusted) vs Robust quantile FTO,1378,513,553,312,0.020042693453156582,0.0,0.23226705547131482
+Surrogate policy-gradient (risk-adjusted) vs Fuzzy risk-aware FTO,1378,1147,230,1,10.61413482471723,8.552830491704395,1.363469629359257e-146
+Surrogate policy-gradient (risk-adjusted) vs Constrained Q-learning policy,1378,1272,106,0,27.034395883703173,25.25769710905454,2.630910588437901e-254

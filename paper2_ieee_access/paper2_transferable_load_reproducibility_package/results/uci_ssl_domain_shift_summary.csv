@@ -1,0 +1,2 @@
+target_clients,mean_latent_distance,mean_source_head_rmse,mean_adapter_28d_rmse,mean_adapter_gain_pct,corr_distance_source_rmse,corr_distance_adapter_gain_pct
+10,1.3881802156567573,75.6889041289878,74.96186632631252,0.8960082167142502,-0.6036421826703116,0.003048709615080002

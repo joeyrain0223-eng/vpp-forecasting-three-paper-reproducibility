@@ -1,0 +1,6 @@
+comparison,candidate_model,baseline_model,target_clients,mean_baseline_rmse,mean_candidate_rmse,mean_rmse_gain_pct,wins,losses,ties,sign_test_p_two_sided
+RC source vs 28d target ridge,RC-lag-source-head,Target-linear-28d,10,82.7816338393267,67.87756165761184,20.65106262812718,9,1,0,0.021484375
+RC adapter 28d vs 28d target ridge,RC-lag+adapter-28d,Target-linear-28d,10,82.7816338393267,67.50006145954026,21.21196904673265,9,1,0,0.021484375
+RC adapter 7d vs 7d target ridge,RC-lag+adapter-7d,Target-linear-7d,10,88.09554175372205,68.01601871301173,25.207503135627125,10,0,0,0.001953125
+RC source vs MR source head,RC-lag-source-head,SSL-MR-lag-source-head,10,75.6889041289878,67.87756165761184,11.327441557435467,10,0,0,0.001953125
+RC adapter 28d vs MR adapter 28d,RC-lag+adapter-28d,SSL-MR-lag+adapter-28d,10,74.96186632631252,67.50006145954026,11.330347753482567,10,0,0,0.001953125

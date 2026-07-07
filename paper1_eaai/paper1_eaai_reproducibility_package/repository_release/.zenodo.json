@@ -1,0 +1,27 @@
+{
+  "title": "Uncertainty-Aware Spatio-Temporal Learning for Electricity Price Forecasting in Virtual Power Plant Market Operation: Reproducibility Package",
+  "upload_type": "software",
+  "description": "Public-data code and derived artifacts for a Paper 1 submission candidate on uncertainty-aware spatio-temporal electricity price forecasting for virtual power plant market operation.",
+  "creators": [
+    {
+      "name": "Ren, Zhijie",
+      "affiliation": "College of Computer Science, Hunan University"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "electricity price forecasting",
+    "virtual power plant",
+    "spatio-temporal learning",
+    "conformal prediction",
+    "Open Power System Data"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "manuscript DOI to be added after publication",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ]
+}

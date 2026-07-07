@@ -1,0 +1,6 @@
+comparison,candidate_model,baseline_model,target_clients,mean_baseline_rmse,mean_candidate_rmse,mean_rmse_gain_pct,wins,losses,ties,sign_test_p_two_sided
+PatchAttn 28d adapter vs TDConv 28d adapter,PatchAttention-ridge+adapter-28d,TDConv-ridge+adapter-28d,10,65.2907270553834,64.76050816707189,1.8999561269548646,9,1,0,0.021484375
+PatchAttn source vs TDConv source,PatchAttention-ridge-source-head,TDConv-ridge-source-head,10,65.47136411063897,65.11856194101401,1.5740963902617586,9,1,0,0.021484375
+PatchAttn 28d adapter vs RC 28d adapter,PatchAttention-ridge+adapter-28d,RC-lag+adapter-28d,10,67.50006145954026,64.76050816707189,5.156523766417239,9,1,0,0.021484375
+PatchAttn 28d adapter vs target ridge 28d,PatchAttention-ridge+adapter-28d,Target-linear-28d,10,82.7816338393267,64.76050816707189,24.941160007489323,9,1,0,0.021484375
+PatchAttn target head 28d vs target ridge 28d,PatchAttention-ridge+target-head-28d,Target-linear-28d,10,82.7816338393267,130.5679288826995,-54.37795283994948,2,8,0,0.109375

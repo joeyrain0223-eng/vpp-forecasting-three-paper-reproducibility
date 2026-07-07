@@ -1,0 +1,8 @@
+model,protocol,adapt_days,target_clients,mean_mae,mean_rmse,mean_smape,total_n,source_validation_rmse_normalized
+SourceMLP+adapter-7d,source-trained neural encoder with target adapter,7,10,62.62431853277722,84.90492588534318,8.07361794749933,22080,0.09172190725803375
+SourceMLP-hidden-target-head-28d,frozen source-trained hidden representation with target ridge head,28,10,62.55269917245022,85.8825834948319,8.045825285486284,22080,0.09172190725803375
+SourceMLP+adapter-28d,source-trained neural encoder with target adapter,28,10,63.58638320086669,86.0563211743281,8.21911196082843,22080,0.09172190725803375
+SourceMLP-source-head,source-trained one-hidden-layer neural encoder,0,10,66.12001849387003,88.2124956680298,8.354978407797116,22080,0.09172190725803375
+SourceMLP-target-ridge-features-28d,target-only ridge on SourceMLP input features,28,10,70.15586611434783,95.63348446938816,9.503987960770607,22080,0.09172190725803375
+SourceMLP-hidden-target-head-7d,frozen source-trained hidden representation with target ridge head,7,10,124.7278395192609,163.16886603879203,15.613613651191951,22080,0.09172190725803375
+SourceMLP-target-ridge-features-7d,target-only ridge on SourceMLP input features,7,10,271.7714231548108,336.38365660797655,33.78241721095826,22080,0.09172190725803375

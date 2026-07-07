@@ -1,0 +1,37 @@
+# Paper 3 Verified Reference Register
+
+- [1] `bertsimas2020prescriptive` | doi_verified | https://doi.org/10.1287/mnsc.2018.3253 | title_match=yes
+- [2] `elmachtoub2022smart` | doi_verified | https://doi.org/10.1287/mnsc.2020.3922 | title_match=yes
+- [3] `amos2017optnet` | url_verified_no_doi | https://proceedings.mlr.press/v70/amos17a.html | title_match=n/a
+- [4] `donti2017task` | url_verified_no_doi | https://papers.neurips.cc/paper/7132-task-based-end-to-end-model-learning-in-stochastic-optimization | title_match=n/a
+- [5] `wilder2019melding` | doi_verified | https://doi.org/10.1609/aaai.v33i01.33011658 | title_match=yes
+- [6] `rockafellar2000cvar` | doi_verified | https://doi.org/10.21314/JOR.2000.038 | title_match=yes
+- [7] `boyd2004convex` | doi_verified | https://doi.org/10.1017/CBO9780511804441 | title_match=yes
+- [8] `angelopoulos2023conformal` | doi_verified | https://doi.org/10.1561/2200000101 | title_match=yes
+- [9] `lim2021temporal` | doi_verified | https://doi.org/10.1016/j.ijforecast.2021.03.012 | title_match=yes
+- [10] `lago2021benchmark` | doi_verified | https://doi.org/10.1016/j.apenergy.2021.116983 | title_match=yes
+- [11] `hong2016probabilistic` | doi_verified | https://doi.org/10.1016/j.ijforecast.2016.02.001 | title_match=yes
+- [12] `rouzbahani2021vppreview` | doi_verified | https://doi.org/10.1016/j.seta.2021.101370 | title_match=yes
+- [13] `nosratabadi2017microgridvpp` | doi_verified | https://doi.org/10.1016/j.rser.2016.09.025 | title_match=yes
+- [14] `nguyen2018vppbidding` | doi_verified | https://doi.org/10.1109/TIA.2018.2828379 | title_match=yes
+- [15] `shafiekhani2019strategic` | doi_verified | https://doi.org/10.1016/j.ijepes.2019.05.023 | title_match=yes
+- [16] `opsd2020timeseries` | url_verified_no_doi | https://data.open-power-system-data.org/time_series/2020-10-06/ | title_match=n/a
+- [17] `zadeh1965fuzzy` | doi_verified | https://doi.org/10.1016/S0019-9958(65)90241-X | title_match=yes
+- [18] `takagi1985fuzzy` | doi_verified | https://doi.org/10.1109/TSMC.1985.6313399 | title_match=yes
+- [19] `jang1993anfis` | doi_verified | https://doi.org/10.1109/21.256541 | title_match=yes
+- [20] `kar2014neurofuzzy` | doi_verified | https://doi.org/10.1016/j.asoc.2013.10.014 | title_match=yes
+- [21] `alawami2017fuzzyvpp` | doi_verified | https://doi.org/10.1109/TIA.2017.2723338 | title_match=yes
+- [22] `vazquez2019rl` | doi_verified | https://doi.org/10.1016/j.apenergy.2018.11.002 | title_match=yes
+- [23] `weron2014epf` | doi_verified | https://doi.org/10.1016/j.ijforecast.2014.08.008 | title_match=yes
+- [24] `nowotarski2018probepf` | doi_verified | https://doi.org/10.1016/j.rser.2017.05.234 | title_match=yes
+- [25] `pandzic2013offering` | doi_verified | https://doi.org/10.1016/j.apenergy.2012.12.077 | title_match=yes
+- [26] `mashhour2011part1` | doi_verified | https://doi.org/10.1109/TPWRS.2010.2070884 | title_match=yes
+- [27] `dabbagh2016industrialvpp` | doi_verified | https://doi.org/10.1016/j.apenergy.2015.12.024 | title_match=yes
+- [28] `yang2018bioinspired` | doi_verified | https://doi.org/10.1016/j.asoc.2018.04.051 | title_match=yes
+- [29] `saber2021adaptivefuzzy` | doi_verified | https://doi.org/10.1016/j.asoc.2020.106882 | title_match=yes
+- [30] `mamaghani2017fuzzymicrogrid` | doi_verified | https://doi.org/10.1016/j.asoc.2017.05.059 | title_match=yes
+- [31] `mandi2024dflsurvey` | doi_verified | https://doi.org/10.1613/jair.1.15320 | title_match=yes
+- [32] `li2024vppoperationsreview` | doi_verified | https://doi.org/10.1016/j.apenergy.2023.122284 | title_match=yes
+- [33] `du2023drlsmartgrid` | doi_verified | https://doi.org/10.1109/JPROC.2023.3303358 | title_match=yes
+- [34] `bental2009robust` | doi_verified | https://doi.org/10.1515/9781400831050 | title_match=yes
+- [35] `birge2011stochastic` | doi_verified | https://doi.org/10.1007/978-1-4614-0237-4 | title_match=yes

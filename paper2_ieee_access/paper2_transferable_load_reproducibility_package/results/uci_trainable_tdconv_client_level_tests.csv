@@ -1,0 +1,6 @@
+comparison,candidate_model,baseline_model,target_clients,mean_baseline_rmse,mean_candidate_rmse,mean_rmse_gain_pct,wins,losses,ties,sign_test_p_two_sided
+TDConv 28d adapter vs target ridge 28d,TDConv-ridge+adapter-28d,Target-linear-28d,10,82.7816338393267,65.2907270553834,23.77890856463742,9,1,0,0.021484375
+TDConv 28d adapter vs RC 28d adapter,TDConv-ridge+adapter-28d,RC-lag+adapter-28d,10,67.50006145954026,65.2907270553834,3.3223111962673846,10,0,0,0.001953125
+TDConv source vs RC source,TDConv-ridge-source-head,RC-lag-source-head,10,67.87756165761184,65.47136411063897,3.9534502695455402,10,0,0,0.001953125
+TDConv target head 28d vs target ridge 28d,TDConv-ridge+target-head-28d,Target-linear-28d,10,82.7816338393267,91.7879327046995,-7.492261599717244,5,5,0,1.0
+TDConv 7d adapter vs target ridge 7d,TDConv-ridge+adapter-7d,Target-linear-7d,10,88.09554175372205,66.04439022952229,27.41126364650724,10,0,0,0.001953125

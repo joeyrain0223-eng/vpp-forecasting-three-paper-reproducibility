@@ -1,0 +1,51 @@
+dataset,target_client,model,protocol,adapt_days,mae,rmse,smape,n
+UCI Electricity Load Diagrams 2011-2014,MT_355,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,30.072439126602905,52.44499846509881,5.9716364855728505,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,30.23525999363512,52.58678339702226,5.953016908649579,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,394.94021819043013,489.2559010052405,62.019110321836,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,29.459615037727964,51.79550999601179,5.995010147717976,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,58.281589461798745,91.87957003955803,13.271641499230629,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,54.739661764865005,76.69578408927234,4.854372136696183,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,54.85223103677049,76.74098681084058,4.921463501244565,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,484.42869051111916,605.2939452082129,65.8154783484852,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,55.37382076235171,77.05884416251246,4.972228924726322,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,155.63993285114196,197.19058603032173,16.712925700414182,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,100.06198796872944,142.84754255941226,4.322366517305174,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,98.28048203899783,141.80236034010622,4.2693871096937,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,175.9482616290544,235.2617764945111,7.59130515941661,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,97.04751755872542,140.88894470842487,4.208039426569857,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,99.93944747578169,139.24506032069615,4.3122355009319735,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,25.247981656565393,42.9427498089313,5.377882878942795,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,24.359627795965793,42.32055522164377,5.226340073895511,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,79.52760033723486,103.27768564715223,27.603516794506444,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,25.003397909851497,42.64923057974718,5.442134393131343,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,57.71922206537052,91.34610387714446,16.37786968977279,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,39.296466577014854,61.05113766217265,3.707190493583148,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,38.96828122272106,60.70324122219191,3.6856949052160846,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,137.19862878195505,220.1680460729185,11.837803139723022,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,39.29631122634668,60.624027154068685,3.7084549474096757,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,50.43201396762763,83.33814391926495,4.648739246891327,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,70.14856983609357,96.92524017806971,6.072126675429265,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,70.2969963495282,97.13101966604306,6.091576534829326,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,1041.3160476745227,1231.3820771758683,131.20417009670135,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,70.23838783905934,97.16520299432823,6.073210900306228,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,253.54026353241252,316.392957333842,27.12387852292826,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,34.130805773636936,53.71535754766291,3.6460671261478472,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,40.97330122324758,58.74889482021049,4.542879793527154,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,258.9650029293131,396.44425153062696,30.156536252276084,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,35.1566839739592,54.01868487454518,3.842744207871921,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,75.93451092473212,99.17199142000047,8.475655881898723,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,20.112507758649283,33.24477206314324,5.536808044630175,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,19.98095162843876,33.55053039162483,5.410239761233171,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,90.24853325327588,127.93721319331594,25.752193548697345,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,19.429805417294098,32.323638253466136,5.4077124634041525,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,29.578014401144795,54.824468381470794,8.454752293329157,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,31.510333628541087,48.6167418648182,4.238952163099362,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,32.449816059065476,49.785408402847466,4.336837631009701,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,341.21855591126746,433.0933826971855,35.32788067725597,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,31.268856788669034,48.51365197363293,4.218573698189849,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,81.12031597280993,146.40686903019926,12.19080603894141,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,28.551187549580717,42.701295171558634,6.721153150550892,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,28.31625103554591,42.60855679857615,6.628888689645527,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,99.68292303414063,158.03750230140713,22.481287848647888,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,28.532764779450343,42.56734697398154,6.741948082996996,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,59.12166163912474,85.8835384744973,16.134272734950684,2208

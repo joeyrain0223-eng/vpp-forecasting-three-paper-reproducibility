@@ -1,0 +1,5 @@
+dataset,model,protocol,mae_wh,rmse_wh,smape,n
+UCI Appliances Energy Prediction,Lag-weather ridge,chronological ridge baseline,38.92996510514558,78.58854580815805,38.03190714765476,3889
+UCI Appliances Energy Prediction,Random-window ridge,deterministic random temporal representation,39.90296239944696,78.61219364866352,40.33642125866127,3889
+UCI Appliances Energy Prediction,Persistence-current,one-hour-ahead public holdout,45.11442530213422,98.97637577826883,32.02472001612844,3889
+UCI Appliances Energy Prediction,Seasonal-24h,one-hour-ahead public holdout,50.820262278220625,107.03680850484834,37.11246177481504,3889

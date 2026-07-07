@@ -1,0 +1,17 @@
+dataset,horizon,model,protocol,mae_wh,rmse_wh,smape,n
+UCI Appliances Energy Prediction,12h,Random-window ridge,deterministic random temporal representation,44.58685559048126,84.8996837012545,45.93084780747444,3875
+UCI Appliances Energy Prediction,12h,Lag-weather ridge,chronological ridge baseline,44.693460222516535,85.7035846981366,44.914890023997174,3875
+UCI Appliances Energy Prediction,12h,Seasonal-24h-target-slot,previous-day same target-slot seasonal,50.766451612903225,107.10260380558206,37.025779804680084,3875
+UCI Appliances Energy Prediction,12h,Persistence-current,current-value persistence,71.5974193548387,129.28088948911503,55.42226171877955,3875
+UCI Appliances Energy Prediction,1h,Lag-weather ridge,chronological ridge baseline,38.94213933097636,78.59597065137105,38.0663487121632,3889
+UCI Appliances Energy Prediction,1h,Random-window ridge,deterministic random temporal representation,39.91833203039243,78.61681871731453,40.38128091119185,3889
+UCI Appliances Energy Prediction,1h,Persistence-current,current-value persistence,45.11442530213422,98.97637577826883,32.02472001612844,3889
+UCI Appliances Energy Prediction,1h,Seasonal-24h-target-slot,previous-day same target-slot seasonal,50.820262278220625,107.03680850484834,37.11246177481504,3889
+UCI Appliances Energy Prediction,3h,Random-window ridge,deterministic random temporal representation,47.43669282849763,83.54352148154729,48.969380396927235,3886
+UCI Appliances Energy Prediction,3h,Lag-weather ridge,chronological ridge baseline,47.9140235931383,84.49216678736911,47.74421048224944,3886
+UCI Appliances Energy Prediction,3h,Seasonal-24h-target-slot,previous-day same target-slot seasonal,50.77200205867216,106.99276794814864,37.085032976238104,3886
+UCI Appliances Energy Prediction,3h,Persistence-current,current-value persistence,56.01904271744725,112.72932251371162,41.50336249830455,3886
+UCI Appliances Energy Prediction,6h,Random-window ridge,deterministic random temporal representation,48.99543143274747,85.44526235086627,47.14011930683456,3883
+UCI Appliances Energy Prediction,6h,Lag-weather ridge,chronological ridge baseline,49.06285781098905,85.55304790492816,45.56616956046145,3883
+UCI Appliances Energy Prediction,6h,Seasonal-24h-target-slot,previous-day same target-slot seasonal,50.76744784960082,107.02242105896637,37.06922651730978,3883
+UCI Appliances Energy Prediction,6h,Persistence-current,current-value persistence,64.66391964975534,120.92920777812515,49.92742800762014,3883

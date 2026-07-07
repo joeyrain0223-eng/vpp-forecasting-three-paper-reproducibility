@@ -1,0 +1,17 @@
+zone,variant,risk_weight,charge_std_coef,discharge_std_coef,charge_net_coef,discharge_net_coef
+DE_LU,Coarse revenue grid,0.0,0.5,-0.5,8.0,4.0
+DE_LU,Fine revenue grid,0.0,0.5,-0.5,8.0,4.0
+DE_LU,Coarse risk-adjusted grid,0.5,0.5,0.0,8.0,4.0
+DE_LU,Fine risk-adjusted grid,0.5,0.25,0.0,6.0,6.0
+DK_1,Coarse revenue grid,0.0,0.5,0.0,0.0,0.0
+DK_1,Fine revenue grid,0.0,0.5,0.25,0.0,0.0
+DK_1,Coarse risk-adjusted grid,0.5,0.5,0.5,0.0,0.0
+DK_1,Fine risk-adjusted grid,0.5,0.5,0.5,0.0,0.0
+DK_2,Coarse revenue grid,0.0,0.0,0.5,8.0,4.0
+DK_2,Fine revenue grid,0.0,0.0,0.25,8.0,2.0
+DK_2,Coarse risk-adjusted grid,0.5,0.0,0.0,8.0,0.0
+DK_2,Fine risk-adjusted grid,0.5,0.0,0.0,8.0,2.0
+GB_GBN,Coarse revenue grid,0.0,0.0,0.0,0.0,4.0
+GB_GBN,Fine revenue grid,0.0,0.0,-0.25,0.0,2.0
+GB_GBN,Coarse risk-adjusted grid,0.5,0.0,0.0,0.0,0.0
+GB_GBN,Fine risk-adjusted grid,0.5,0.0,-0.25,0.0,2.0

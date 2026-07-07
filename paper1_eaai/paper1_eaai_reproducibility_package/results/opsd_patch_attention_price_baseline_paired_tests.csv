@@ -1,0 +1,61 @@
+dataset,zone,regime,model,baseline,paired_n,wins,losses,win_rate,mean_abs_error_delta,sign_test_z,sign_test_p_approx
+OPSD,DE_LU,all,DLinear-style sequence ridge,TDConv-style sequence ridge,3471,1704,1767,0.4909248055315471,-0.06436286913846953,-1.0693336724451656,0.284919342907473
+OPSD,DE_LU,all,NLinear-style sequence ridge,TDConv-style sequence ridge,3471,1724,1747,0.49668683376548545,-0.06270527178177493,-0.39039165819426686,0.6962469552988254
+OPSD,DE_LU,all,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DE_LU,all,Patch-attention sequence ridge,TDConv-style sequence ridge,3471,1625,1846,0.4681647940074906,-0.08771593286305514,-3.751154628736216,0.00017602209658543747
+OPSD,DE_LU,all,Calibration-selected strong anchor (TDConv-style sequence ridge),TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DE_LU,spike,DLinear-style sequence ridge,TDConv-style sequence ridge,251,122,129,0.4860557768924303,-0.1476618447877134,-0.4418360821684622,0.6586078262873853
+OPSD,DE_LU,spike,NLinear-style sequence ridge,TDConv-style sequence ridge,251,126,125,0.50199203187251,-0.14388961718958246,0.06311944030978031,0.9496713940360918
+OPSD,DE_LU,spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DE_LU,spike,Patch-attention sequence ridge,TDConv-style sequence ridge,251,114,137,0.4541832669322709,-0.1048534510462945,-1.4517471271249474,0.1465719302241734
+OPSD,DE_LU,spike,Calibration-selected strong anchor (TDConv-style sequence ridge),TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DE_LU,non_spike,DLinear-style sequence ridge,TDConv-style sequence ridge,3220,1582,1638,0.49130434782608695,-0.05786968811736388,-0.9868703275903379,0.32370621227391305
+OPSD,DE_LU,non_spike,NLinear-style sequence ridge,TDConv-style sequence ridge,3220,1598,1622,0.4962732919254658,-0.0563769268447067,-0.4229444261101448,0.6723358083659552
+OPSD,DE_LU,non_spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DE_LU,non_spike,Patch-attention sequence ridge,TDConv-style sequence ridge,3220,1511,1709,0.46925465838509317,-0.08638005799846099,-3.4892915154086945,0.000484302678003862
+OPSD,DE_LU,non_spike,Calibration-selected strong anchor (TDConv-style sequence ridge),TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_1,all,DLinear-style sequence ridge,TDConv-style sequence ridge,10043,5176,4867,0.5153838494473763,0.024710775265098902,3.0833778488013013,0.0020466511220578656
+OPSD,DK_1,all,NLinear-style sequence ridge,TDConv-style sequence ridge,10043,5177,4866,0.5154834212884596,0.026396854347065415,3.103334986981245,0.0019135291167530735
+OPSD,DK_1,all,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_1,all,Patch-attention sequence ridge,TDConv-style sequence ridge,10043,4893,5150,0.4872050184207906,-0.05034458067682989,-2.564492256122765,0.010332688503030155
+OPSD,DK_1,all,Calibration-selected strong anchor (NLinear-style sequence ridge),TDConv-style sequence ridge,10043,5177,4866,0.5154834212884596,0.026396854347065415,3.103334986981245,0.0019135291167530735
+OPSD,DK_1,spike,DLinear-style sequence ridge,TDConv-style sequence ridge,1718,864,854,0.5029103608847497,-0.0007083730088469023,0.2412617203266904,0.8093522774191951
+OPSD,DK_1,spike,NLinear-style sequence ridge,TDConv-style sequence ridge,1718,848,870,0.4935972060535506,0.0020798174917791,-0.5307757847187189,0.595574162365925
+OPSD,DK_1,spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_1,spike,Patch-attention sequence ridge,TDConv-style sequence ridge,1718,841,877,0.48952270081490107,-0.0501269674390304,-0.8685421931760854,0.38509758453879855
+OPSD,DK_1,spike,Calibration-selected strong anchor (NLinear-style sequence ridge),TDConv-style sequence ridge,1718,848,870,0.4935972060535506,0.0020798174917791,-0.5307757847187189,0.595574162365925
+OPSD,DK_1,non_spike,DLinear-style sequence ridge,TDConv-style sequence ridge,8325,4312,4013,0.517957957957958,0.029956432530520986,3.277019813620122,0.0010490900726480552
+OPSD,DK_1,non_spike,NLinear-style sequence ridge,TDConv-style sequence ridge,8325,4329,3996,0.52,0.03141507288368787,3.6496575181789317,0.00026259017741469973
+OPSD,DK_1,non_spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_1,non_spike,Patch-attention sequence ridge,TDConv-style sequence ridge,8325,4052,4273,0.48672672672672673,-0.05038948872998779,-2.422145079632264,0.01542918933006239
+OPSD,DK_1,non_spike,Calibration-selected strong anchor (NLinear-style sequence ridge),TDConv-style sequence ridge,8325,4329,3996,0.52,0.03141507288368787,3.6496575181789317,0.00026259017741469973
+OPSD,DK_2,all,DLinear-style sequence ridge,TDConv-style sequence ridge,10043,5152,4891,0.5129941252613761,0.014193426488218681,2.6044065324826526,0.009203351973880348
+OPSD,DK_2,all,NLinear-style sequence ridge,TDConv-style sequence ridge,10043,5139,4904,0.5116996913272926,0.016309065116853684,2.344963736143385,0.019028930292210422
+OPSD,DK_2,all,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_2,all,Patch-attention sequence ridge,TDConv-style sequence ridge,10043,5011,5032,0.49895449566862493,-0.005632875111439883,-0.20954995088940884,0.8340189456422699
+OPSD,DK_2,all,Calibration-selected strong anchor (NLinear-style sequence ridge),TDConv-style sequence ridge,10043,5139,4904,0.5116996913272926,0.016309065116853684,2.344963736143385,0.019028930292210422
+OPSD,DK_2,spike,DLinear-style sequence ridge,TDConv-style sequence ridge,1712,862,850,0.5035046728971962,-0.0008951179463762595,0.29002094671369905,0.7718002128045235
+OPSD,DK_2,spike,NLinear-style sequence ridge,TDConv-style sequence ridge,1712,849,863,0.495911214953271,0.002873982802657733,-0.33835777116598226,0.7350935930708105
+OPSD,DK_2,spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_2,spike,Patch-attention sequence ridge,TDConv-style sequence ridge,1712,902,810,0.5268691588785047,0.05705088177772995,2.2234939248050263,0.026182512589442774
+OPSD,DK_2,spike,Calibration-selected strong anchor (NLinear-style sequence ridge),TDConv-style sequence ridge,1712,849,863,0.495911214953271,0.002873982802657733,-0.33835777116598226,0.7350935930708105
+OPSD,DK_2,non_spike,DLinear-style sequence ridge,TDConv-style sequence ridge,8331,4290,4041,0.514944184371624,0.01729408524131273,2.7280402887546913,0.006371182598004841
+OPSD,DK_2,non_spike,NLinear-style sequence ridge,TDConv-style sequence ridge,8331,4290,4041,0.514944184371624,0.019069941472861784,2.7280402887546913,0.006371182598004841
+OPSD,DK_2,non_spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,DK_2,non_spike,Patch-attention sequence ridge,TDConv-style sequence ridge,8331,4109,4222,0.4932181010682991,-0.018514232906933673,-1.2380263157802414,0.21570630329826218
+OPSD,DK_2,non_spike,Calibration-selected strong anchor (NLinear-style sequence ridge),TDConv-style sequence ridge,8331,4290,4041,0.514944184371624,0.019069941472861784,2.7280402887546913,0.006371182598004841
+OPSD,GB_GBN,all,DLinear-style sequence ridge,TDConv-style sequence ridge,10016,5366,4650,0.5357428115015974,0.14323952451561542,7.154278864448012,8.411392023929026e-13
+OPSD,GB_GBN,all,NLinear-style sequence ridge,TDConv-style sequence ridge,10016,5425,4591,0.5416333865814696,0.14700023879820978,8.333335995739724,7.859570046162482e-17
+OPSD,GB_GBN,all,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,GB_GBN,all,Patch-attention sequence ridge,TDConv-style sequence ridge,10016,5094,4922,0.5085862619808307,-0.16666249693222596,1.7186256490014777,0.08568255823156049
+OPSD,GB_GBN,all,Calibration-selected strong anchor (TDConv-style sequence ridge),TDConv-style sequence ridge,0,0,0,,,,
+OPSD,GB_GBN,spike,DLinear-style sequence ridge,TDConv-style sequence ridge,767,386,381,0.5032594524119948,-0.23535224366055887,0.18053953616852972,0.8567290189210348
+OPSD,GB_GBN,spike,NLinear-style sequence ridge,TDConv-style sequence ridge,767,384,383,0.500651890482399,-0.20901458541760307,0.036107907233705945,0.9711963173801351
+OPSD,GB_GBN,spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,GB_GBN,spike,Patch-attention sequence ridge,TDConv-style sequence ridge,767,379,388,0.4941329856584094,-1.1588424463938782,-0.3249711651033535,0.7452028951891722
+OPSD,GB_GBN,spike,Calibration-selected strong anchor (TDConv-style sequence ridge),TDConv-style sequence ridge,0,0,0,,,,
+OPSD,GB_GBN,non_spike,DLinear-style sequence ridge,TDConv-style sequence ridge,9249,4980,4269,0.5384365877392151,0.1746353387864691,7.393025616428216,1.4352481239349626e-13
+OPSD,GB_GBN,non_spike,NLinear-style sequence ridge,TDConv-style sequence ridge,9249,5041,4208,0.5450318953400367,0.17652379487708628,8.661589786898318,4.652298725205377e-18
+OPSD,GB_GBN,non_spike,TDConv-style sequence ridge,TDConv-style sequence ridge,0,0,0,,,,
+OPSD,GB_GBN,non_spike,Patch-attention sequence ridge,TDConv-style sequence ridge,9249,4715,4534,0.5097848416044978,-0.08438311308131372,1.8820501217630197,0.05982921065654307
+OPSD,GB_GBN,non_spike,Calibration-selected strong anchor (TDConv-style sequence ridge),TDConv-style sequence ridge,0,0,0,,,,

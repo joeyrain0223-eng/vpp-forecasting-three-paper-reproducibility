@@ -1,0 +1,111 @@
+dataset,target_client,model,protocol,adapt_days,mae,rmse,smape,n
+UCI Electricity Load Diagrams 2011-2014,MT_355,RC-lag-source-head,random-convolution source representation,0,33.225372151237345,54.89414969782901,6.741941495974305,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Seasonal-24h,zero-label seasonal,0,40.49633342977883,89.34583567234019,7.7548024674105305,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Seasonal-168h,zero-label seasonal,0,55.78665714764941,98.59001250027983,8.938240384913083,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,RC-lag+adapter-1d,random-convolution representation with target adapter,1,39.653399140138745,59.37190354569896,7.826472322452785,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Target-linear-1d,target-only lag-calendar ridge,1,70.44736895421374,103.25555800289672,11.432489767739018,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,RC-lag+adapter-3d,random-convolution representation with target adapter,3,38.39325430207376,59.25505862583478,7.876453668682373,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Target-linear-3d,target-only lag-calendar ridge,3,76.44928571889086,112.0133295467342,13.68347576323366,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,RC-lag+adapter-7d,random-convolution representation with target adapter,7,33.45917366643772,55.29241824187244,6.868360501358397,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Target-linear-7d,target-only lag-calendar ridge,7,48.44076199820753,83.71770261224628,8.216373043071275,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,RC-lag+adapter-28d,random-convolution representation with target adapter,28,33.334883164528144,54.721843278579236,6.894222343149521,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Target-linear-28d,target-only lag-calendar ridge,28,43.41180912185155,75.52691095567543,7.567259593197566,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,RC-lag-source-head,random-convolution source representation,0,57.94759612034748,80.27554687402446,5.179456857275977,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Seasonal-24h,zero-label seasonal,0,79.78956449204597,132.69342856371478,7.103375754878635,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Seasonal-168h,zero-label seasonal,0,82.84292310908221,124.01946880355213,7.371411256285494,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,RC-lag+adapter-1d,random-convolution representation with target adapter,1,65.18761513866062,88.84681808582064,5.891483971764113,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Target-linear-1d,target-only lag-calendar ridge,1,75.79341953340017,103.87874362415268,6.82850201082557,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,RC-lag+adapter-3d,random-convolution representation with target adapter,3,62.49212636753377,85.29517749934632,5.807420459961155,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Target-linear-3d,target-only lag-calendar ridge,3,67.85181875136387,96.63397795353943,6.087846095750259,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,RC-lag+adapter-7d,random-convolution representation with target adapter,7,59.16861473394271,81.64287636166502,5.374514694121218,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Target-linear-7d,target-only lag-calendar ridge,7,65.75883277133313,96.652095190704,5.916479322934157,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,RC-lag+adapter-28d,random-convolution representation with target adapter,28,58.623933322044664,80.83013541160562,5.317030645292224,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Target-linear-28d,target-only lag-calendar ridge,28,62.76070470018607,95.76917439851739,5.642212302778998,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,RC-lag-source-head,random-convolution source representation,0,93.41519554413335,135.5844303159253,4.0439513379389895,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Seasonal-24h,zero-label seasonal,0,212.05905361451966,304.94730911164237,9.303781975793655,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Seasonal-168h,zero-label seasonal,0,136.08531940847203,203.57060705558186,5.840348326114257,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,RC-lag+adapter-1d,random-convolution representation with target adapter,1,104.70535802900544,149.9558983401695,4.580008710723356,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Target-linear-1d,target-only lag-calendar ridge,1,130.11872435561477,183.12954446233826,5.658956589178482,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,RC-lag+adapter-3d,random-convolution representation with target adapter,3,195.54532464943688,246.7744918691894,8.623140966572167,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Target-linear-3d,target-only lag-calendar ridge,3,107.03169390767378,147.88886065286727,4.651066296753286,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,RC-lag+adapter-7d,random-convolution representation with target adapter,7,94.71548382709291,136.88198039128994,4.118357873718666,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Target-linear-7d,target-only lag-calendar ridge,7,104.64733173678295,145.92510546814907,4.536506051490441,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,RC-lag+adapter-28d,random-convolution representation with target adapter,28,94.54590364153611,136.22774792545667,4.085022756564303,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Target-linear-28d,target-only lag-calendar ridge,28,89.54312390545385,129.10735752940928,3.8579193477092115,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,RC-lag-source-head,random-convolution source representation,0,27.70559443745725,44.669200855185736,6.11300285655871,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Seasonal-24h,zero-label seasonal,0,35.00377150549405,75.20647345506522,6.804834773564599,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Seasonal-168h,zero-label seasonal,0,42.73717263124991,71.44378371700371,7.9816868125935,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,RC-lag+adapter-1d,random-convolution representation with target adapter,1,27.915764945831597,44.98961905544568,6.1520877177336555,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Target-linear-1d,target-only lag-calendar ridge,1,36.46499923231725,70.55811876334765,7.239714560855642,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,RC-lag+adapter-3d,random-convolution representation with target adapter,3,47.475840027484054,63.900374727603676,12.052198716705224,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Target-linear-3d,target-only lag-calendar ridge,3,42.37627556835225,64.29196061198068,8.632419065967154,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,RC-lag+adapter-7d,random-convolution representation with target adapter,7,27.662768558062293,44.49475057473489,6.147562622580124,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Target-linear-7d,target-only lag-calendar ridge,7,38.71783960700451,61.43120113562003,7.6568675275566624,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,RC-lag+adapter-28d,random-convolution representation with target adapter,28,28.53258950050223,45.058672694376504,6.299530915360485,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Target-linear-28d,target-only lag-calendar ridge,28,37.04100063443865,59.2895525539652,7.248941169477027,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,RC-lag-source-head,random-convolution source representation,0,44.15667389368932,65.95422726817017,4.120129533214757,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Seasonal-24h,zero-label seasonal,0,68.88167422750722,118.05820526404761,6.354551946567404,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Seasonal-168h,zero-label seasonal,0,81.71372761933699,127.24119188851255,7.218024397965249,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,RC-lag+adapter-1d,random-convolution representation with target adapter,1,45.9523619019151,68.11011280200992,4.348480510756225,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Target-linear-1d,target-only lag-calendar ridge,1,70.43442720725952,107.82487145140533,6.313491650419547,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,RC-lag+adapter-3d,random-convolution representation with target adapter,3,68.72993914241083,90.00466990075476,6.39031929488337,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Target-linear-3d,target-only lag-calendar ridge,3,145.9030763647393,183.26845383509672,14.103897837531754,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,RC-lag+adapter-7d,random-convolution representation with target adapter,7,42.28104812355607,63.97732365406001,3.9736521730254077,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Target-linear-7d,target-only lag-calendar ridge,7,60.96706703356209,96.99226250449313,5.579529540758172,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,RC-lag+adapter-28d,random-convolution representation with target adapter,28,42.80356020780918,64.0007904040643,4.001796795954463,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Target-linear-28d,target-only lag-calendar ridge,28,58.40890594068683,83.9023925745426,5.3709798562933235,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,RC-lag-source-head,random-convolution source representation,0,75.65540482889887,102.86316794805208,6.622690989923575,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Seasonal-24h,zero-label seasonal,0,124.22286553313766,178.83196767948954,10.39369256319909,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Seasonal-168h,zero-label seasonal,0,92.17772094063137,128.9761784501056,7.920033800861657,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,RC-lag+adapter-1d,random-convolution representation with target adapter,1,82.51975319141046,111.32615633874686,7.3065846842270865,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Target-linear-1d,target-only lag-calendar ridge,1,109.64788675637871,150.07980863717174,9.58056112069679,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,RC-lag+adapter-3d,random-convolution representation with target adapter,3,157.35227509373894,196.24214518611393,15.760475268492838,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Target-linear-3d,target-only lag-calendar ridge,3,146.54863040950175,183.66112015515353,14.47650606616444,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,RC-lag+adapter-7d,random-convolution representation with target adapter,7,75.35576408951142,102.86907446583736,6.555127812901755,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Target-linear-7d,target-only lag-calendar ridge,7,80.689348187603,112.13264804445932,6.903310541079387,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,RC-lag+adapter-28d,random-convolution representation with target adapter,28,75.81092913367468,103.9284726751341,6.574006377340484,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Target-linear-28d,target-only lag-calendar ridge,28,77.04960372444836,106.46558695531027,6.587307953946667,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,RC-lag-source-head,random-convolution source representation,0,40.86024497193382,59.569762507808875,4.476049458022324,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Seasonal-24h,zero-label seasonal,0,59.46583434118741,100.50281522085459,6.300634917709931,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Seasonal-168h,zero-label seasonal,0,67.1752874954887,100.8644183757621,6.932125793224209,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,RC-lag+adapter-1d,random-convolution representation with target adapter,1,96.81254480793162,116.99283796523461,11.1096840745983,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Target-linear-1d,target-only lag-calendar ridge,1,111.32600110555997,155.785333558597,11.866934053265577,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,RC-lag+adapter-3d,random-convolution representation with target adapter,3,53.83289696011143,72.67272965221244,5.851072597343354,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Target-linear-3d,target-only lag-calendar ridge,3,105.21877847678269,140.86940927143513,11.919628477482325,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,RC-lag+adapter-7d,random-convolution representation with target adapter,7,43.042705590073105,61.014082827641765,4.773379943943788,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Target-linear-7d,target-only lag-calendar ridge,7,55.14531794875528,82.56223323384583,5.870533479701452,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,RC-lag+adapter-28d,random-convolution representation with target adapter,28,38.467212790685814,57.27591961955139,4.2177440346105,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Target-linear-28d,target-only lag-calendar ridge,28,50.468754282803246,77.6254606780321,5.349698156556074,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,RC-lag-source-head,random-convolution source representation,0,24.18605546337757,37.45680918769989,6.60611193126867,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Seasonal-24h,zero-label seasonal,0,34.74964939338574,78.54758812070999,7.7917455796502475,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Seasonal-168h,zero-label seasonal,0,50.175104683724,87.48884963519447,10.773676265540356,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,RC-lag+adapter-1d,random-convolution representation with target adapter,1,24.11744421500573,38.38783900113245,6.316517287116594,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Target-linear-1d,target-only lag-calendar ridge,1,37.614580610085675,79.48749647170446,8.857764391873049,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,RC-lag+adapter-3d,random-convolution representation with target adapter,3,30.37450494142478,42.93401789775513,10.22625583903851,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Target-linear-3d,target-only lag-calendar ridge,3,55.31936059593402,80.85512966949257,21.53209853969698,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,RC-lag+adapter-7d,random-convolution representation with target adapter,7,22.269992207445917,35.869796073208946,5.990343147367846,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Target-linear-7d,target-only lag-calendar ridge,7,32.493303995670196,66.63534616449321,7.479507820213251,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,RC-lag+adapter-28d,random-convolution representation with target adapter,28,23.04459611481438,35.636347520653956,6.572669721838624,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Target-linear-28d,target-only lag-calendar ridge,28,32.212690637154886,70.52424669000546,7.3195933044966965,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,RC-lag-source-head,random-convolution source representation,0,33.99624116599268,51.88959813438582,4.545154417427751,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Seasonal-24h,zero-label seasonal,0,56.93659528096517,104.97665642863868,7.50873208571903,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Seasonal-168h,zero-label seasonal,0,70.86790593465169,115.58572641778778,8.639020751807921,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,RC-lag+adapter-1d,random-convolution representation with target adapter,1,39.15306366370539,57.503680738787025,5.137290365937782,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Target-linear-1d,target-only lag-calendar ridge,1,60.629052258983805,95.19181704764299,7.645595362059949,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,RC-lag+adapter-3d,random-convolution representation with target adapter,3,49.43305901239152,66.08524803455956,6.7482910524093445,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Target-linear-3d,target-only lag-calendar ridge,3,91.54763633706318,119.59803922768795,12.830516002727807,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,RC-lag+adapter-7d,random-convolution representation with target adapter,7,34.407990153393726,52.553752660501075,4.585617373313297,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Target-linear-7d,target-only lag-calendar ridge,7,45.59866984827003,73.67351612903079,5.846088991432598,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,RC-lag+adapter-28d,random-convolution representation with target adapter,28,33.69249925164886,51.68429380455462,4.520462918032493,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Target-linear-28d,target-only lag-calendar ridge,28,44.995046513620714,72.72628096076372,5.793125922015372,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,RC-lag-source-head,random-convolution source representation,0,31.375169610160928,45.61872378703694,7.488991808311603,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Seasonal-24h,zero-label seasonal,0,47.013798720594764,76.54855904054796,11.157272993751043,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Seasonal-168h,zero-label seasonal,0,48.941721142202184,77.22117805495913,10.892487744638979,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,RC-lag+adapter-1d,random-convolution representation with target adapter,1,31.582248565096,45.808897724938426,7.535659182700671,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Target-linear-1d,target-only lag-calendar ridge,1,44.37071989851788,67.2068493180375,10.662551646393554,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,RC-lag+adapter-3d,random-convolution representation with target adapter,3,35.73322236372416,49.384128156847325,8.559723169351907,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Target-linear-3d,target-only lag-calendar ridge,3,52.649796018452086,74.69255112319709,12.70441558510012,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,RC-lag+adapter-7d,random-convolution representation with target adapter,7,31.146071726760486,45.564131879305926,7.36831724683778,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Target-linear-7d,target-only lag-calendar ridge,7,39.89148132919844,61.23330705417883,9.287361170225212,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,RC-lag+adapter-28d,random-convolution representation with target adapter,28,31.360542711737352,45.63639126142614,7.4825220106349395,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Target-linear-28d,target-only lag-calendar ridge,28,38.43228056563567,56.879375097045454,8.906675025656389,2208

@@ -1,0 +1,16 @@
+model,protocol,target_clients,mean_mae,mean_rmse,mean_smape,total_n,family
+SSL-MR-lag+adapter-28d,frozen representation with target adapter,10,51.76994366373841,74.96186632631252,6.4105953738625345,22080,SSL representation prototype
+SSL-MR-lag-source-head,source-only frozen representation,10,52.37673663475933,75.68890412898782,6.4334577474232875,22080,SSL representation prototype
+SSL-MR-lag+adapter-7d,frozen representation with target adapter,10,52.58563989006458,75.74487640832804,6.445986743791717,22080,SSL representation prototype
+Target-28d-linear,few-shot target only,10,53.43330888177932,82.78363827416241,6.364482518097363,22080,transparent baseline
+Pooled-source-linear,source-only transfer,10,59.48755933235145,87.32103706551739,6.826796128450958,22080,transparent baseline
+Target-7d-linear,few-shot target only,10,57.239382865431345,88.10555273259487,6.730268002531366,22080,transparent baseline
+SSL-MR+adapter-28d,frozen representation with target adapter,10,70.24505274122603,101.19591127144687,9.131435915180422,22080,SSL representation prototype
+SSL-MR-lag+target-head-28d,frozen representation with target head,10,73.33914740663975,102.04721436442776,8.994069955264653,22080,SSL representation prototype
+SSL-MR+adapter-7d,frozen representation with target adapter,10,71.1807420249983,102.47339595244856,9.157829359557441,22080,SSL representation prototype
+SSL-MR-source-head,source-only frozen representation,10,71.94939267673354,103.30165064686987,9.242551039258515,22080,SSL representation prototype
+Seasonal-168h,direct seasonal,10,72.85035392314221,113.50014092353108,8.25070556010306,22080,transparent baseline
+Seasonal-24h,direct seasonal,10,75.86191393827286,125.96588298001524,8.047342511728122,22080,transparent baseline
+SSL-MR+target-head-28d,frozen representation with target head,10,94.07642331904745,128.43970995810983,12.033169132029908,22080,SSL representation prototype
+SSL-MR-lag+target-head-7d,frozen representation with target head,10,486.2306446298632,614.1541590296777,55.956317277042864,22080,SSL representation prototype
+SSL-MR+target-head-7d,frozen representation with target head,10,547.4066384873892,705.7058238783852,58.75690158856072,22080,SSL representation prototype

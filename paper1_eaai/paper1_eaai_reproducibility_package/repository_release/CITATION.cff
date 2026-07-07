@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript and this archived software record."
+title: "Uncertainty-Aware Spatio-Temporal Learning for Electricity Price Forecasting in Virtual Power Plant Market Operation: Reproducibility Package"
+authors:
+  - family-names: "Ren"
+    given-names: "Zhijie"
+    affiliation: "College of Computer Science, Hunan University"
+version: "v1.0.0-paper1-eaai-submission"
+date-released: "2026-06-30"
+repository-code: "repository URL to be inserted"
+doi: "repository DOI to be inserted"
+keywords:
+  - "electricity price forecasting"
+  - "virtual power plant"
+  - "spatio-temporal learning"
+  - "conformal prediction"
+  - "Open Power System Data"
+license: "MIT"

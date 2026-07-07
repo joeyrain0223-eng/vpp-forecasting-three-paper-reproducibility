@@ -1,0 +1,12 @@
+model,protocol,adapt_days,target_clients,mean_mae,mean_rmse,mean_smape,total_n
+RC-lag+adapter-28d,random-convolution representation with target adapter,28,10,46.02166498389814,67.50006145954026,5.596500851877804,22080
+RC-lag-source-head,random-convolution source representation,0,10,46.252354818722864,67.87756165761184,5.593748068591666,22080
+RC-lag+adapter-7d,random-convolution representation with target adapter,7,10,46.35096126762763,68.01601871301173,5.575523338916828,22080
+RC-lag+adapter-1d,random-convolution representation with target adapter,1,10,55.75995535987007,78.1293763597984,6.620426882801057,22080
+Target-linear-28d,target-only lag-calendar ridge,28,10,53.43239200262798,82.7816338393267,6.364371263212733,22080
+Target-linear-7d,target-only lag-calendar ridge,7,10,57.23499544563872,88.09554175372205,6.729255748846261,22080
+RC-lag+adapter-3d,random-convolution representation with target adapter,3,10,73.93624428603302,97.25480415502173,8.789535103344026,22080
+Target-linear-1d,target-only lag-calendar ridge,1,10,74.68471799123316,111.63981413372944,8.608656115330717,22080
+Seasonal-168h,zero-label seasonal,0,10,72.85035401124885,113.50014148987391,8.250705553394472,22080
+Target-linear-3d,target-only lag-calendar ridge,3,10,89.08963521487537,120.37728320471847,12.062186973040777,22080
+Seasonal-24h,zero-label seasonal,0,10,75.86191405386164,125.96588385570507,8.047342505824416,22080

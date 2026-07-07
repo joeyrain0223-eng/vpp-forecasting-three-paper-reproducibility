@@ -1,0 +1,5 @@
+dataset,zone,rows,start_utc,end_utc,price_non_null,load_non_null,solar_non_null,wind_non_null
+OPSD time_series_60min_singleindex,DE_LU,17521,2018-10-01T00:00:00+00:00,2020-09-30T22:00:00+00:00,17521,17521,17516,17521
+OPSD time_series_60min_singleindex,DK_1,50386,2015-01-01T01:00:00+00:00,2020-09-30T22:00:00+00:00,50386,50386,50377,50386
+OPSD time_series_60min_singleindex,DK_2,50386,2015-01-01T01:00:00+00:00,2020-09-30T22:00:00+00:00,50386,50386,50373,50386
+OPSD time_series_60min_singleindex,GB_GBN,50288,2015-01-02T00:00:00+00:00,2020-09-30T22:00:00+00:00,50288,50288,50247,50252

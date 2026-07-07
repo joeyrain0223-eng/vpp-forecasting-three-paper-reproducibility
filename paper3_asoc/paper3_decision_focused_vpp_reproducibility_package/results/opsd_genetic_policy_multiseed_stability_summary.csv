@@ -1,0 +1,11 @@
+metric,value,interpretation
+seed_count,8.0,Number of independent genetic-search seeds.
+mean_revenue_mean,21.543300148888644,Average of seed-level mean test revenues.
+mean_revenue_std,0.07823639214988454,Seed-level standard deviation of mean test revenue.
+mean_revenue_min,21.42456152068828,Worst seed-level mean test revenue.
+mean_revenue_max,21.64795680296554,Best seed-level mean test revenue.
+cvar_10_mean,-1.5300090115485179,Average seed-level CVaR10.
+cvar_10_std,0.16255931928717873,Seed-level standard deviation of CVaR10.
+seeds_at_or_above_df_revenue,1.0,Seeds whose mean revenue is at least the coarse-grid revenue-selected policy.
+df_revenue_baseline,21.63852095381871,Coarse-grid revenue-selected decision-focused policy mean revenue.
+df_revenue_baseline_cvar_10,-1.8528591943225292,Coarse-grid revenue-selected decision-focused policy CVaR10.

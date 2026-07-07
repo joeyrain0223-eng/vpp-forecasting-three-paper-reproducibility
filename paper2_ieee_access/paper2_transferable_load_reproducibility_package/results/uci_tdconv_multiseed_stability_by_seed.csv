@@ -1,0 +1,17 @@
+seed,model,protocol,adapt_days,target_clients,mean_mae,mean_rmse,mean_smape,total_n
+20260710,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.69423214426827,65.30977972831113,5.234876562858603,22080
+20260711,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.64241682892809,65.33977991624224,5.231219762703135,22080
+20260712,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.585583011420674,65.28299975517383,5.218377056827277,22080
+20260713,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.671251587142784,65.30481505689175,5.243418177276145,22080
+20260714,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.720291937174395,65.46545837545344,5.226016691852565,22080
+20260715,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.68744084358984,65.32371831856554,5.22408678880293,22080
+20260716,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.6396929434645,65.35143393792647,5.220482332848492,22080
+20260717,TDConv-ridge+adapter-28d,source-subsampled trainable TDConv with 28d target adapter,28,10,43.716622445789895,65.32765992557363,5.231218239841637,22080
+20260710,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.673506080310716,65.58324759871172,5.152787986936794,22080
+20260711,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.45637389707527,65.47833385698932,5.130062963608199,22080
+20260712,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.73341150400175,65.63441799148555,5.173237259673115,22080
+20260713,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.77518548992419,65.67366111440394,5.172452252560538,22080
+20260714,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.7950391690318,65.77865689803124,5.162598786176973,22080
+20260715,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.69023861141922,65.62125051254453,5.14603846563981,22080
+20260716,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.908503471215205,65.82651922146084,5.190371024387716,22080
+20260717,TDConv-ridge-source-head,source-subsampled trainable TDConv source head,0,10,43.88810263007751,65.72705060857979,5.179191390802462,22080

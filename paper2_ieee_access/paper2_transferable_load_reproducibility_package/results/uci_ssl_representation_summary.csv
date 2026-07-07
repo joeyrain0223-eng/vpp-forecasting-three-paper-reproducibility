@@ -1,0 +1,11 @@
+model,protocol,target_clients,mean_mae,mean_rmse,mean_smape,total_n
+SSL-MR-lag+adapter-28d,frozen representation with target adapter,10,51.76994366373841,74.96186632631252,6.4105953738625345,22080
+SSL-MR-lag-source-head,source-only frozen representation,10,52.37673663475933,75.68890412898782,6.4334577474232875,22080
+SSL-MR-lag+adapter-7d,frozen representation with target adapter,10,52.58563989006458,75.74487640832804,6.445986743791717,22080
+SSL-MR+adapter-28d,frozen representation with target adapter,10,70.24505274122603,101.19591127144687,9.131435915180422,22080
+SSL-MR-lag+target-head-28d,frozen representation with target head,10,73.33914740663975,102.04721436442776,8.994069955264653,22080
+SSL-MR+adapter-7d,frozen representation with target adapter,10,71.1807420249983,102.47339595244856,9.157829359557441,22080
+SSL-MR-source-head,source-only frozen representation,10,71.94939267673354,103.30165064686987,9.242551039258515,22080
+SSL-MR+target-head-28d,frozen representation with target head,10,94.07642331904745,128.43970995810983,12.033169132029908,22080
+SSL-MR-lag+target-head-7d,frozen representation with target head,10,486.2306446298632,614.1541590296777,55.956317277042864,22080
+SSL-MR+target-head-7d,frozen representation with target head,10,547.4066384873892,705.7058238783852,58.75690158856072,22080

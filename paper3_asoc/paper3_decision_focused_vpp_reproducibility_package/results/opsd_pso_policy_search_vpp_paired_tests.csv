@@ -1,0 +1,10 @@
+comparison,paired_days,wins,losses,ties,mean_revenue_delta,median_revenue_delta,exact_two_sided_sign_p
+PSO policy search (risk-adjusted) vs PSO policy search (revenue),1378,217,231,930,-0.021247614904901704,0.0,0.5391355397424843
+PSO policy search (risk-adjusted) vs Genetic policy search (risk-adjusted),1378,173,194,1011,-0.08019492195283223,0.0,0.2964798349088214
+PSO policy search (risk-adjusted) vs Genetic policy search (revenue),1378,206,227,945,-0.04959046285767981,0.0,0.3364898265869233
+PSO policy search (risk-adjusted) vs DF policy search (revenue),1378,207,233,938,-0.0935261630042519,0.0,0.23329159095827304
+PSO policy search (risk-adjusted) vs DF policy search (risk-adjusted),1378,230,213,935,0.05406661819756191,0.0,0.4471815958835243
+PSO policy search (risk-adjusted) vs Robust quantile FTO,1378,451,404,523,0.2706423688267699,0.0,0.11562785143118967
+PSO policy search (risk-adjusted) vs Rolling-28d mean FTO,1378,301,286,791,0.11650710165906114,0.0,0.5634079373824659
+PSO policy search (risk-adjusted) vs Fuzzy risk-aware FTO,1378,1170,208,0,10.864734500090844,8.764018179861514,9.874921935038069e-163
+PSO policy search (risk-adjusted) vs Constrained Q-learning policy,1378,1274,104,0,27.28499555907679,25.30843353200023,1.802188241714531e-256

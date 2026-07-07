@@ -1,0 +1,6 @@
+model,protocol,adapt_days,target_clients,mean_mae,mean_rmse,mean_smape,total_n
+PatchAttention-ridge+adapter-28d,CPU-only patch-attention source representation with target adapter,28,10,43.08071612934353,64.76050816707189,5.061005719232432,22080
+PatchAttention-ridge-source-head,CPU-only patch-attention source representation,0,10,43.38719416402792,65.11856194101401,5.0448555671957696,22080
+PatchAttention-ridge+adapter-7d,CPU-only patch-attention source representation with target adapter,7,10,43.87131983839162,65.59783370711067,5.106632490894432,22080
+PatchAttention-ridge+target-head-28d,target-only CPU-only patch-attention ridge,28,10,92.13069722919447,130.5679288826995,12.770277710928914,22080
+PatchAttention-ridge+target-head-7d,target-only CPU-only patch-attention ridge,7,10,310.34744622523135,400.0151781326439,41.97892821875459,22080

@@ -1,0 +1,10 @@
+dataset,rows,columns,source_file,key_distribution,voltage_non_null_share
+power_lines,216700,11,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_lines.csv,,0.6836
+power_points_generator,194613,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_generator.csv,wind:162400; solar:29322; unknown:1187; coal:920; hydro:548; gas:88; battery:70; nuclear:35,
+power_points_other,27398,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_other.csv,,0.0136
+power_points_plant,43,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_plant.csv,,0.0
+power_points_pole,157896,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_pole.csv,,0.0003
+power_points_substation,247,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_substation.csv,,0.3765
+power_points_tower,3645674,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_tower.csv,,0.0002
+power_points_transformer,15216,13,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_transformer.csv,,0.0024
+power_polygons,612672,11,[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_polygons.csv,,0.0274

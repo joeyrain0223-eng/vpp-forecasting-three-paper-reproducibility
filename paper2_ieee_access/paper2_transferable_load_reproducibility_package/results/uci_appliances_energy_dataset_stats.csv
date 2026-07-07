@@ -1,0 +1,2 @@
+dataset,rows_raw,rows_supervised,rows_modelled_after_window,train_rows,validation_rows,test_rows,start,end,target,source_url
+UCI Appliances Energy Prediction,19735,19585,19441,11664,3888,3889,2016-01-13 17:00:00,2016-05-27 17:00:00,Appliances one hour ahead,https://archive.ics.uci.edu/static/public/374/appliances+energy+prediction.zip

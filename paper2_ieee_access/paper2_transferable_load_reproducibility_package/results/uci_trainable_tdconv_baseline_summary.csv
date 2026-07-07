@@ -1,0 +1,8 @@
+model,protocol,adapt_days,target_clients,mean_mae,mean_rmse,mean_smape,total_n
+TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,10,43.65034014599034,65.2907270553834,5.222520886543709,22080
+TDConv-ridge-source-head,trainable dilated-convolution source head,0,10,43.500648850610716,65.47136411063897,5.120573948246813,22080
+TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,10,44.38599978292837,66.04439022952229,5.26356335184138,22080
+TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,10,67.05753981925987,91.7879327046995,9.233270710072382,22080
+Seasonal-168h,zero-label seasonal,0,10,72.85035401124885,113.50014148987391,8.250705553394472,22080
+Seasonal-24h,zero-label seasonal,0,10,75.86191405386164,125.96588385570507,8.047342505824416,22080
+TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,10,196.19201285918083,252.0521722829285,24.51023296236675,22080

@@ -1,0 +1,71 @@
+dataset,target_client,model,protocol,adapt_days,mae,rmse,smape,n
+UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge-source-head,trainable dilated-convolution source head,0,31.201532691909993,54.05628765886267,6.217775658507158,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Seasonal-24h,zero-label seasonal,0,40.49633342977883,89.34583567234019,7.7548024674105305,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,Seasonal-168h,zero-label seasonal,0,55.78665714764941,98.59001250027983,8.938240384913083,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,32.00794145754731,54.31083658767995,6.473789261804106,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,164.66496450439598,200.33782379021815,29.491514333229578,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,31.249848828387535,53.64955246736844,6.50109799280693,2208
+UCI Electricity Load Diagrams 2011-2014,MT_355,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,48.0545321508867,67.31612634156072,10.462812927137932,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge-source-head,trainable dilated-convolution source head,0,55.80023457436395,77.78987613955886,4.968832170675966,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Seasonal-24h,zero-label seasonal,0,79.78956449204597,132.69342856371478,7.103375754878635,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,Seasonal-168h,zero-label seasonal,0,82.84292310908221,124.01946880355213,7.371411256285494,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,56.08593468153542,77.76397608163634,5.048050098527924,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,93.96919244860833,131.23346285421832,8.751228950978005,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,56.27592182750327,77.98084384907416,5.066109659980983,2208
+UCI Electricity Load Diagrams 2011-2014,MT_166,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,90.19528671979624,116.28119023329054,8.420944686094947,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge-source-head,trainable dilated-convolution source head,0,91.4185025942876,133.6036766987084,3.963252374155415,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Seasonal-24h,zero-label seasonal,0,212.05905361451966,304.94730911164237,9.303781975793655,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,Seasonal-168h,zero-label seasonal,0,136.08531940847203,203.57060705558186,5.840348326114257,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,92.53446682246386,133.92767341169912,4.0204511352649135,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,206.5267980247667,274.5551077258179,9.080541803248291,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,90.24589181933092,132.03445493583396,3.914088453974089,2208
+UCI Electricity Load Diagrams 2011-2014,MT_163,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,90.87163689535117,129.51146075596918,3.911163013421637,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge-source-head,trainable dilated-convolution source head,0,25.644016983665775,44.07829873762962,5.520660775794892,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Seasonal-24h,zero-label seasonal,0,35.00377150549405,75.20647345506522,6.804834773564599,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,Seasonal-168h,zero-label seasonal,0,42.73717263124991,71.44378371700371,7.9816868125935,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,25.689513719335316,43.850597095124236,5.65149564419283,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,62.09315463863783,87.1152375692574,14.166762419303645,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,26.237077439862194,44.137182955001215,5.81058060770289,2208
+UCI Electricity Load Diagrams 2011-2014,MT_101,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,50.68105066462263,70.033981753864,13.673855952546518,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge-source-head,trainable dilated-convolution source head,0,40.76459213572023,62.45584265559727,3.8464590470636004,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Seasonal-24h,zero-label seasonal,0,68.88167422750722,118.05820526404761,6.354551946567404,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,Seasonal-168h,zero-label seasonal,0,81.71372761933699,127.24119188851255,7.218024397965249,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,40.819446818586215,62.337498840748495,3.8697417014774196,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,85.79260192529514,116.4665331265354,8.313580069770229,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,41.32129329886002,62.34332175666976,3.8950564583171428,2208
+UCI Electricity Load Diagrams 2011-2014,MT_218,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,44.54984072749877,65.97680203420782,4.2277779210578315,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge-source-head,trainable dilated-convolution source head,0,72.53800614062831,99.66143115204214,6.282759853784222,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Seasonal-24h,zero-label seasonal,0,124.22286553313766,178.83196767948954,10.39369256319909,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,Seasonal-168h,zero-label seasonal,0,92.17772094063137,128.9761784501056,7.920033800861657,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,72.64181563323929,99.89046375219945,6.294703854406112,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,429.4615897708645,540.6300819938277,52.34947295714887,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,72.74128063236735,100.10298193191115,6.291145917744126,2208
+UCI Electricity Load Diagrams 2011-2014,MT_043,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,178.10551855310422,228.45542475941068,17.00476551993599,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge-source-head,trainable dilated-convolution source head,0,35.745615754818,55.01370235340904,3.827602168289737,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Seasonal-24h,zero-label seasonal,0,59.46583434118741,100.50281522085459,6.300634917709931,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,Seasonal-168h,zero-label seasonal,0,67.1752874954887,100.8644183757621,6.932125793224209,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,41.35251857420538,59.33256703435132,4.564371496780031,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,373.2621409657175,438.29317905675447,33.335352221486716,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,36.254939789163856,55.233994705568136,3.91161534278487,2208
+UCI Electricity Load Diagrams 2011-2014,MT_314,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,46.02275877051805,67.99583535078334,4.988036844086796,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge-source-head,trainable dilated-convolution source head,0,20.348567599751387,34.31040705603028,5.264078533565401,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Seasonal-24h,zero-label seasonal,0,34.74964939338574,78.54758812070999,7.7917455796502475,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,Seasonal-168h,zero-label seasonal,0,50.175104683724,87.48884963519447,10.773676265540356,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,20.119829424297922,34.03367379897535,5.278361905832458,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,97.30543859686728,146.78135062685075,28.373041835422853,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,20.544056131954783,33.701937061501766,5.432585884930436,2208
+UCI Electricity Load Diagrams 2011-2014,MT_104,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,30.937510898958653,44.703090893558965,10.063547300881082,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge-source-head,trainable dilated-convolution source head,0,31.991492289475545,49.66750361385488,4.284036831827381,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Seasonal-24h,zero-label seasonal,0,56.93659528096517,104.97665642863868,7.50873208571903,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,Seasonal-168h,zero-label seasonal,0,70.86790593465169,115.58572641778778,8.639020751807921,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,32.979774539582294,50.89380818997569,4.389084026432685,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,315.444710018493,379.5339050643355,33.04729289767621,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,31.832666572540425,49.60960319718283,4.272333569061315,2208
+UCI Electricity Load Diagrams 2011-2014,MT_222,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,40.43216682542497,58.997853668184426,5.583250778436081,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge-source-head,trainable dilated-convolution source head,0,29.553927741486337,44.07661504069649,7.030282068804363,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Seasonal-24h,zero-label seasonal,0,47.013798720594764,76.54855904054796,11.157272993751043,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,Seasonal-168h,zero-label seasonal,0,48.941721142202184,77.22117805495913,10.892487744638979,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-7d,trainable dilated-convolution source head with target adapter,7,29.62875615849071,44.102807502832974,7.045584393695317,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+target-head-7d,target-only trainable dilated-convolution ridge,7,133.39953769816213,205.57504102146953,28.19354213540308,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+adapter-28d,trainable dilated-convolution source head with target adapter,28,29.80042511993304,44.11339769372263,7.130594978134306,2208
+UCI Electricity Load Diagrams 2011-2014,MT_360,TDConv-ridge+target-head-28d,target-only trainable dilated-convolution ridge,28,50.72509598643734,68.60756125616531,13.99655215712501,2208

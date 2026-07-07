@@ -1,0 +1,1082 @@
+{
+  "generated": "2026-07-06",
+  "status": "PASS_WITH_LICENSE_AND_SOURCE_PAGE_GATES",
+  "purpose": "GIS energy-infrastructure evidence layer for dissertation context and bounded journal external-validity discussion.",
+  "source_root": "[public-source-root]/gis",
+  "summary": {
+    "grid_2025_transmission_line_records": 12839,
+    "grid_2025_substation_records": 2041,
+    "grid_2025_grid_link_records": 9444,
+    "osm_mainland_power_records": 4870459,
+    "wri_china_power_plant_records": 4274,
+    "gem_operating_capacity_gw": 3108.905,
+    "grid_line_record_growth_2015_2025_pct": 610.122,
+    "osm_generator_renewable_or_storage_share_pct": 98.832,
+    "wri_renewable_capacity_share_pct": 25.407
+  },
+  "outputs": {
+    "grid_summary_csv": "gis_energy_infrastructure/china_grid_timeseries_summary.csv",
+    "osm_summary_csv": "gis_energy_infrastructure/osm_china_power_grid_summary.csv",
+    "wri_summary_csv": "gis_energy_infrastructure/wri_china_power_plant_fuel_summary.csv",
+    "gem_summary_csv": "gis_energy_infrastructure/gem_china_power_facility_summary.csv",
+    "derived_metrics_csv": "gis_energy_infrastructure/gis_spatiotemporal_resource_heterogeneity_metrics.csv",
+    "grid_context_figure": "figures/paper3_fig14_china_grid_gis_externality.png",
+    "resource_mix_figure": "figures/dissertation_fig_gis_resource_mix_context.png",
+    "derived_metrics_figure": "figures/dissertation_fig_gis_spatiotemporal_resource_heterogeneity.png"
+  },
+  "grid_rows": [
+    {
+      "year": 2015,
+      "feature": "01_power_transmission_lines",
+      "rows": 1808,
+      "columns": 30,
+      "voltage_non_null": 1808,
+      "max_voltage_kv": 1000.0,
+      "median_voltage_kv": 220.0,
+      "share_500kv_plus": 0.2129,
+      "top_status": "operating:1146; missing:172; cancelled:144; retired:143",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2015/01_power_transmission_lines_2015.csv"
+    },
+    {
+      "year": 2015,
+      "feature": "02_substations",
+      "rows": 1824,
+      "columns": 219,
+      "voltage_non_null": 1824,
+      "max_voltage_kv": 1100.0,
+      "median_voltage_kv": 220.0,
+      "share_500kv_plus": 0.2171,
+      "top_status": "operating:1192; missing:188; retired:156; pre-construction:106",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2015/02_substations_2015.csv"
+    },
+    {
+      "year": 2015,
+      "feature": "04_grid_links",
+      "rows": 4401,
+      "columns": 9,
+      "voltage_non_null": 0,
+      "max_voltage_kv": "",
+      "median_voltage_kv": "",
+      "share_500kv_plus": "",
+      "top_status": "",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2015/04_grid_links_2015.csv"
+    },
+    {
+      "year": 2020,
+      "feature": "01_power_transmission_lines",
+      "rows": 4921,
+      "columns": 30,
+      "voltage_non_null": 4921,
+      "max_voltage_kv": 1000.0,
+      "median_voltage_kv": 220.0,
+      "share_500kv_plus": 0.154,
+      "top_status": "operating:2734; missing:945; pre-construction:338; cancelled:289",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2020/01_power_transmission_lines_2020.csv"
+    },
+    {
+      "year": 2020,
+      "feature": "02_substations",
+      "rows": 4281,
+      "columns": 219,
+      "voltage_non_null": 4281,
+      "max_voltage_kv": 1100.0,
+      "median_voltage_kv": 220.0,
+      "share_500kv_plus": 0.1495,
+      "top_status": "operating:2310; missing:981; pre-construction:300; retired:221",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2020/02_substations_2020.csv"
+    },
+    {
+      "year": 2020,
+      "feature": "04_grid_links",
+      "rows": 7165,
+      "columns": 9,
+      "voltage_non_null": 0,
+      "max_voltage_kv": "",
+      "median_voltage_kv": "",
+      "share_500kv_plus": "",
+      "top_status": "",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2020/04_grid_links_2020.csv"
+    },
+    {
+      "year": 2025,
+      "feature": "01_power_transmission_lines",
+      "rows": 12839,
+      "columns": 30,
+      "voltage_non_null": 12839,
+      "max_voltage_kv": 1100.0,
+      "median_voltage_kv": 220.0,
+      "share_500kv_plus": 0.165,
+      "top_status": "operating:4757; missing:4633; pre-construction:1106; construction:696",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2025/01_power_transmission_lines_2025.csv"
+    },
+    {
+      "year": 2025,
+      "feature": "02_substations",
+      "rows": 2041,
+      "columns": 221,
+      "voltage_non_null": 2041,
+      "max_voltage_kv": 1100.0,
+      "median_voltage_kv": 220.0,
+      "share_500kv_plus": 0.1411,
+      "top_status": "missing:816; operating:758; pre-construction:181; construction:100",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2025/02_substations_2025.csv"
+    },
+    {
+      "year": 2025,
+      "feature": "04_grid_links",
+      "rows": 9444,
+      "columns": 9,
+      "voltage_non_null": 0,
+      "max_voltage_kv": "",
+      "median_voltage_kv": "",
+      "share_500kv_plus": "",
+      "top_status": "",
+      "source_file": "[public-source-root]/gis/China_Power_Grid_Timeseries_2015_2025/01_china_power_transmission_network_2015_2020_2025/03_delivery_organized_shp_csv/03_csv_by_year/2025/04_grid_links_2025.csv"
+    }
+  ],
+  "osm_rows": [
+    {
+      "dataset": "power_lines",
+      "rows": 216700,
+      "columns": 11,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_lines.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.6836
+    },
+    {
+      "dataset": "power_points_generator",
+      "rows": 194613,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_generator.csv",
+      "key_distribution": "wind:162400; solar:29322; unknown:1187; coal:920; hydro:548; gas:88; battery:70; nuclear:35",
+      "voltage_non_null_share": ""
+    },
+    {
+      "dataset": "power_points_other",
+      "rows": 27398,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_other.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.0136
+    },
+    {
+      "dataset": "power_points_plant",
+      "rows": 43,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_plant.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.0
+    },
+    {
+      "dataset": "power_points_pole",
+      "rows": 157896,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_pole.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.0003
+    },
+    {
+      "dataset": "power_points_substation",
+      "rows": 247,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_substation.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.3765
+    },
+    {
+      "dataset": "power_points_tower",
+      "rows": 3645674,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_tower.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.0002
+    },
+    {
+      "dataset": "power_points_transformer",
+      "rows": 15216,
+      "columns": 13,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_points_transformer.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.0024
+    },
+    {
+      "dataset": "power_polygons",
+      "rows": 612672,
+      "columns": 11,
+      "source_file": "[public-source-root]/gis/OSM_China_Power_Grid/02_delivery_shp_csv/02_mainland_csv/power_polygons.csv",
+      "key_distribution": "",
+      "voltage_non_null_share": 0.0274
+    }
+  ],
+  "wri_rows": [
+    {
+      "fuel": "Coal",
+      "plant_count": 953,
+      "capacity_mw": 969908.0,
+      "capacity_gw": 969.908,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Hydro",
+      "plant_count": 956,
+      "capacity_mw": 262851.1,
+      "capacity_gw": 262.851,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Gas",
+      "plant_count": 179,
+      "capacity_mw": 71447.5,
+      "capacity_gw": 71.448,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Solar",
+      "plant_count": 1321,
+      "capacity_mw": 54916.12,
+      "capacity_gw": 54.916,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Wind",
+      "plant_count": 842,
+      "capacity_mw": 51185.42,
+      "capacity_gw": 51.185,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Nuclear",
+      "plant_count": 15,
+      "capacity_mw": 38616.0,
+      "capacity_gw": 38.616,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Oil",
+      "plant_count": 6,
+      "capacity_mw": 3329.0,
+      "capacity_gw": 3.329,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "Geothermal",
+      "plant_count": 2,
+      "capacity_mw": 26.1,
+      "capacity_gw": 0.026,
+      "source_file": "[public-source-root]/gis/WRI_China_Power_Plants/01_wri_global_power_plant_database/china_power_plants_wri.geojson"
+    },
+    {
+      "fuel": "__metadata__",
+      "plant_count": 4274,
+      "capacity_mw": "",
+      "capacity_gw": "",
+      "source_file": "missing_capacity_records=0"
+    }
+  ],
+  "gem_rows": [
+    {
+      "type": "coal",
+      "status": "operating",
+      "rows": 3373,
+      "capacity_mw": 1258130.8,
+      "capacity_gw": 1258.131,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "operating",
+      "rows": 14037,
+      "capacity_mw": 619739.7,
+      "capacity_gw": 619.74,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "cancelled",
+      "rows": 1010,
+      "capacity_mw": 585237.0,
+      "capacity_gw": 585.237,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "operating",
+      "rows": 6063,
+      "capacity_mw": 547290.5,
+      "capacity_gw": 547.29,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "pre-construction",
+      "rows": 2394,
+      "capacity_mw": 377110.3,
+      "capacity_gw": 377.11,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "operating",
+      "rows": 1027,
+      "capacity_mw": 376969.0,
+      "capacity_gw": 376.969,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "pre-construction",
+      "rows": 1934,
+      "capacity_mw": 328538.1,
+      "capacity_gw": 328.538,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "announced",
+      "rows": 211,
+      "capacity_mw": 264987.0,
+      "capacity_gw": 264.987,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "construction",
+      "rows": 1102,
+      "capacity_mw": 249822.3,
+      "capacity_gw": 249.822,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "construction",
+      "rows": 151,
+      "capacity_mw": 247432.0,
+      "capacity_gw": 247.432,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "announced",
+      "rows": 697,
+      "capacity_mw": 238342.6,
+      "capacity_gw": 238.343,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "construction",
+      "rows": 1023,
+      "capacity_mw": 214521.7,
+      "capacity_gw": 214.522,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "operating",
+      "rows": 818,
+      "capacity_mw": 209803.39,
+      "capacity_gw": 209.803,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "construction",
+      "rows": 335,
+      "capacity_mw": 206361.0,
+      "capacity_gw": 206.361,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "cancelled - inferred 4 y",
+      "rows": 185,
+      "capacity_mw": 201410.0,
+      "capacity_gw": 201.41,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "announced",
+      "rows": 676,
+      "capacity_mw": 174878.4,
+      "capacity_gw": 174.878,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "announced",
+      "rows": 221,
+      "capacity_mw": 165528.0,
+      "capacity_gw": 165.528,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "retired",
+      "rows": 1227,
+      "capacity_mw": 142782.0,
+      "capacity_gw": 142.782,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "pre-construction",
+      "rows": 250,
+      "capacity_mw": 128744.0,
+      "capacity_gw": 128.744,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "shelved",
+      "rows": 183,
+      "capacity_mw": 96812.0,
+      "capacity_gw": 96.812,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "pre-construction",
+      "rows": 163,
+      "capacity_mw": 77829.0,
+      "capacity_gw": 77.829,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "announced",
+      "rows": 174,
+      "capacity_mw": 63327.0,
+      "capacity_gw": 63.327,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "pre-construction",
+      "rows": 50,
+      "capacity_mw": 60930.0,
+      "capacity_gw": 60.93,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "operating",
+      "rows": 58,
+      "capacity_mw": 60898.0,
+      "capacity_gw": 60.898,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "announced",
+      "rows": 53,
+      "capacity_mw": 59662.0,
+      "capacity_gw": 59.662,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "cancelled",
+      "rows": 167,
+      "capacity_mw": 42789.6,
+      "capacity_gw": 42.79,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "cancelled - inferred 4 y",
+      "rows": 134,
+      "capacity_mw": 40227.0,
+      "capacity_gw": 40.227,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "construction",
+      "rows": 101,
+      "capacity_mw": 38907.6,
+      "capacity_gw": 38.908,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "construction",
+      "rows": 33,
+      "capacity_mw": 38516.0,
+      "capacity_gw": 38.516,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "operating",
+      "rows": 1603,
+      "capacity_mw": 36052.5,
+      "capacity_gw": 36.053,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "shelved - inferred 2 y",
+      "rows": 276,
+      "capacity_mw": 27855.9,
+      "capacity_gw": 27.856,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "pre-construction",
+      "rows": 23,
+      "capacity_mw": 26736.0,
+      "capacity_gw": 26.736,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "shelved - inferred 2 y",
+      "rows": 228,
+      "capacity_mw": 26214.7,
+      "capacity_gw": 26.215,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "shelved - inferred 2 y",
+      "rows": 30,
+      "capacity_mw": 9828.0,
+      "capacity_gw": 9.828,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "shelved",
+      "rows": 52,
+      "capacity_mw": 9446.6,
+      "capacity_gw": 9.447,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "cancelled",
+      "rows": 82,
+      "capacity_mw": 8925.6,
+      "capacity_gw": 8.926,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "shelved",
+      "rows": 80,
+      "capacity_mw": 8442.0,
+      "capacity_gw": 8.442,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "shelved - inferred 2 y",
+      "rows": 2,
+      "capacity_mw": 6600.0,
+      "capacity_gw": 6.6,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "coal",
+      "status": "mothballed",
+      "rows": 26,
+      "capacity_mw": 5820.0,
+      "capacity_gw": 5.82,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "retired",
+      "rows": 6,
+      "capacity_mw": 5144.0,
+      "capacity_gw": 5.144,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "shelved",
+      "rows": 9,
+      "capacity_mw": 3822.0,
+      "capacity_gw": 3.822,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "cancelled - inferred 4 y",
+      "rows": 47,
+      "capacity_mw": 3393.8,
+      "capacity_gw": 3.394,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "construction",
+      "rows": 86,
+      "capacity_mw": 2988.0,
+      "capacity_gw": 2.988,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "retired",
+      "rows": 10,
+      "capacity_mw": 2733.0,
+      "capacity_gw": 2.733,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "nuclear",
+      "status": "cancelled",
+      "rows": 2,
+      "capacity_mw": 2700.0,
+      "capacity_gw": 2.7,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "cancelled - inferred 4 y",
+      "rows": 49,
+      "capacity_mw": 2401.1,
+      "capacity_gw": 2.401,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "pre-construction",
+      "rows": 57,
+      "capacity_mw": 1984.5,
+      "capacity_gw": 1.984,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "announced",
+      "rows": 47,
+      "capacity_mw": 1298.0,
+      "capacity_gw": 1.298,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "cancelled - inferred 4 y",
+      "rows": 41,
+      "capacity_mw": 1294.5,
+      "capacity_gw": 1.294,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "shelved",
+      "rows": 2,
+      "capacity_mw": 1200.0,
+      "capacity_gw": 1.2,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "cancelled",
+      "rows": 1,
+      "capacity_mw": 1200.0,
+      "capacity_gw": 1.2,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "retired",
+      "rows": 27,
+      "capacity_mw": 1154.9,
+      "capacity_gw": 1.155,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "cancelled",
+      "rows": 5,
+      "capacity_mw": 1090.0,
+      "capacity_gw": 1.09,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "oil/gas",
+      "status": "mothballed",
+      "rows": 4,
+      "capacity_mw": 750.0,
+      "capacity_gw": 0.75,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "cancelled",
+      "rows": 3,
+      "capacity_mw": 565.0,
+      "capacity_gw": 0.565,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "wind",
+      "status": "mothballed",
+      "rows": 4,
+      "capacity_mw": 410.0,
+      "capacity_gw": 0.41,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "cancelled - inferred 4 y",
+      "rows": 2,
+      "capacity_mw": 260.0,
+      "capacity_gw": 0.26,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "shelved - inferred 2 y",
+      "rows": 6,
+      "capacity_mw": 210.0,
+      "capacity_gw": 0.21,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "mothballed",
+      "rows": 2,
+      "capacity_mw": 100.0,
+      "capacity_gw": 0.1,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "utility-scale solar",
+      "status": "retired",
+      "rows": 2,
+      "capacity_mw": 90.0,
+      "capacity_gw": 0.09,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "retired",
+      "rows": 4,
+      "capacity_mw": 51.0,
+      "capacity_gw": 0.051,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "geothermal",
+      "status": "pre-construction",
+      "rows": 3,
+      "capacity_mw": 48.5,
+      "capacity_gw": 0.049,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "bioenergy",
+      "status": "mothballed",
+      "rows": 3,
+      "capacity_mw": 45.0,
+      "capacity_gw": 0.045,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "geothermal",
+      "status": "announced",
+      "rows": 2,
+      "capacity_mw": 30.0,
+      "capacity_gw": 0.03,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "geothermal",
+      "status": "mothballed",
+      "rows": 1,
+      "capacity_mw": 24.0,
+      "capacity_gw": 0.024,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "hydropower",
+      "status": "mothballed",
+      "rows": 1,
+      "capacity_mw": 24.0,
+      "capacity_gw": 0.024,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "geothermal",
+      "status": "operating",
+      "rows": 3,
+      "capacity_mw": 21.2,
+      "capacity_gw": 0.021,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    },
+    {
+      "type": "geothermal",
+      "status": "construction",
+      "rows": 1,
+      "capacity_mw": 4.0,
+      "capacity_gw": 0.004,
+      "missing_capacity": 0,
+      "exact_or_approx_location_share": 1.0,
+      "source_file": "[public-source-root]/gis/GEM_China_Energy_Projects/02_china_filtered_tables/integrated-power-tracker/Global-Integrated-Power-March-2026-II__Power facilities__china.csv"
+    }
+  ],
+  "derived_rows": [
+    {
+      "metric_group": "grid_temporal_drift",
+      "metric": "transmission_line_records_2015_to_2025_growth_pct",
+      "value": 610.122,
+      "unit": "percent",
+      "interpretation": "Infrastructure-context drift across the available China grid snapshots; motivates rolling validation and time-aware graph construction."
+    },
+    {
+      "metric_group": "grid_temporal_drift",
+      "metric": "transmission_line_records_2025_share_500kv_plus",
+      "value": 16.5,
+      "unit": "percent",
+      "interpretation": "High-voltage coverage proxy; supports the claim that VPP decisions may face network-scale coupling rather than isolated device control."
+    },
+    {
+      "metric_group": "grid_temporal_drift",
+      "metric": "substation_records_2015_to_2025_growth_pct",
+      "value": 11.897,
+      "unit": "percent",
+      "interpretation": "Infrastructure-context drift across the available China grid snapshots; motivates rolling validation and time-aware graph construction."
+    },
+    {
+      "metric_group": "grid_temporal_drift",
+      "metric": "substation_records_2025_share_500kv_plus",
+      "value": 14.11,
+      "unit": "percent",
+      "interpretation": "High-voltage coverage proxy; supports the claim that VPP decisions may face network-scale coupling rather than isolated device control."
+    },
+    {
+      "metric_group": "grid_temporal_drift",
+      "metric": "grid_link_records_2015_to_2025_growth_pct",
+      "value": 114.588,
+      "unit": "percent",
+      "interpretation": "Infrastructure-context drift across the available China grid snapshots; motivates rolling validation and time-aware graph construction."
+    },
+    {
+      "metric_group": "osm_generator_mix",
+      "metric": "osm_generator_points_count",
+      "value": 194613,
+      "unit": "records",
+      "interpretation": "Generator-point context extracted from OSM-derived mainland power-grid records; used only as coverage/context evidence."
+    },
+    {
+      "metric_group": "osm_generator_mix",
+      "metric": "osm_generator_renewable_or_storage_share",
+      "value": 98.832,
+      "unit": "percent",
+      "interpretation": "Resource-mix heterogeneity proxy; motivates load-transfer and VPP resource-state interfaces."
+    },
+    {
+      "metric_group": "osm_generator_mix",
+      "metric": "osm_generator_source_entropy",
+      "value": 0.517,
+      "unit": "nats",
+      "interpretation": "Diversity of generator source tags; not a reconciled capacity statistic and not used for model training."
+    },
+    {
+      "metric_group": "wri_capacity_mix",
+      "metric": "wri_capacity_total_gw",
+      "value": 1452.279,
+      "unit": "GW",
+      "interpretation": "Open plant-capacity context from WRI; provides resource-scale background only."
+    },
+    {
+      "metric_group": "wri_capacity_mix",
+      "metric": "wri_renewable_capacity_share",
+      "value": 25.407,
+      "unit": "percent",
+      "interpretation": "Capacity-mix heterogeneity proxy across fuel classes."
+    },
+    {
+      "metric_group": "wri_capacity_mix",
+      "metric": "wri_capacity_mix_entropy",
+      "value": 1.0795,
+      "unit": "nats",
+      "interpretation": "Capacity-weighted resource diversity; supports scenario-design discussion without becoming a training label."
+    },
+    {
+      "metric_group": "gem_operating_mix",
+      "metric": "gem_operating_capacity_gw",
+      "value": 3108.905,
+      "unit": "GW",
+      "interpretation": "Operating-capacity context from the local China GEM integrated-power table."
+    },
+    {
+      "metric_group": "gem_operating_mix",
+      "metric": "gem_variable_or_dispatchable_context_share",
+      "value": 56.412,
+      "unit": "percent",
+      "interpretation": "Broad resource-context share used to motivate VPP state heterogeneity; not a dispatchable-capacity estimate."
+    },
+    {
+      "metric_group": "gem_operating_mix",
+      "metric": "gem_operating_type_entropy",
+      "value": 1.5599,
+      "unit": "nats",
+      "interpretation": "Operating resource-type diversity proxy for scenario realism and source-domain heterogeneity."
+    }
+  ],
+  "paper_use": [
+    {
+      "paper": "Paper 1 price forecasting",
+      "use": "Graph-prior and regional heterogeneity motivation only; do not turn GIS metadata into a price target."
+    },
+    {
+      "paper": "Paper 2 load forecasting",
+      "use": "Resource and network heterogeneity motivation for cross-domain load transfer; keep quantitative claims on UCI/OPSD/Shandong validated load data."
+    },
+    {
+      "paper": "Paper 3 VPP decision-focused bidding",
+      "use": "External-validity evidence that VPP decision policies operate in a large resource-network context with renewables, substations, transmission lines, and storage-adjacent assets."
+    },
+    {
+      "paper": "Doctoral dissertation",
+      "use": "Chapter 2 infrastructure background, Chapter 5 VPP scenario design, and Chapter 6 data-governance appendix."
+    }
+  ],
+  "hard_boundaries": [
+    "The GIS layer is not used to train the public OPSD/UCI journal baselines in the current package.",
+    "OSM-derived records require ODbL attribution/share-alike review before redistribution.",
+    "GEM materials may carry non-commercial or tracker-specific use caveats; keep raw GEM files out of public supplements until confirmed.",
+    "Figshare/WRI-style open-license sources can be cited with attribution, but exact source pages and versions still need final manuscript reference checks."
+  ]
+}

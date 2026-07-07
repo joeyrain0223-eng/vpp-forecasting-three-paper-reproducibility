@@ -1,0 +1,4 @@
+model,protocol,adapt_days,target_clients,mean_mae,mean_rmse,mean_smape,total_n,residual_shrinkage
+Neural-TDConv-residual+adapter-28d,source-pooled neural residual representation with target adapter,28,10,44.04501332828072,65.58183587632628,5.248261486811671,22080,0.25
+Neural-TDConv-residual-source-head,source-pooled TDConv ridge plus neural residual head,0,10,43.998457674238814,65.5920871929755,5.2582518447247475,22080,0.25
+Neural-TDConv-residual+adapter-7d,source-pooled neural residual representation with target adapter,7,10,44.97877351368412,66.56627189295564,5.308435942942604,22080,0.25
