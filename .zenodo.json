@@ -1,14 +1,15 @@
 {
   "title": "Public reproducibility package for doctoral manuscripts on electricity price forecasting, load forecasting, and virtual power plant decision learning",
   "upload_type": "software",
-  "description": "Pre-DOI staging metadata for a public reproducibility repository. The real public release must be created only after author approval, final license recheck, and repository DOI issuance. Upstream public data retain their own licenses.",
+  "description": "Public-data-only reproducibility package for a three-manuscript research program on electricity price forecasting, transferable load forecasting, and decision-focused virtual power plant operation. The archive contains source code, manifests, documentation, reproducibility scripts, and synthetic or public-data-derived examples. Private local operational records, customer identifiers, contract terms, account numbers, settlement sheets, and non-public bidding details are excluded. Upstream public datasets retain their original licenses and attribution requirements.",
   "creators": [
     {
       "name": "Ren, Zhijie",
+      "affiliation": "College of Computer Science, Hunan University",
       "orcid": "0009-0006-1048-6640"
     }
   ],
-  "version": "0.1.0-predoi",
+  "version": "0.1.1",
   "keywords": [
     "electricity price forecasting",
     "load forecasting",
@@ -18,5 +19,5 @@
     "reproducibility"
   ],
   "license": "MIT",
-  "notes": "MIT applies to repository coordination code and metadata after author approval. Public-source data files remain governed by their upstream licenses and redistribution notes."
+  "notes": "MIT applies to repository coordination code, scripts, and metadata created for this release. Public-source data files remain governed by their upstream licenses and redistribution notes."
 }
